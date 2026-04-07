@@ -7,6 +7,7 @@
     "process": "node scripts/process-books.mjs"
   },
   "dependencies": {
-    "epub2": "^3.0.2"
+    "epub2": "^3.0.2",
+    "pdf-parse": "^1.1.1"
   }
 }

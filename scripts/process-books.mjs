@@ -1,17 +1,25 @@
 #!/usr/bin/env node
 // scripts/process-books.mjs
-// Processes all .epub files in /books/ into static JSON files under /data/
+// Processes .epub, .pdf, .mobi, and .azw3 files in /books/ into static JSON under /data/
 // Run manually or via GitHub Action on push.
 
 import { EPub } from 'epub2';
+import pdfParse from 'pdf-parse';
 import fs from 'fs/promises';
+import { existsSync } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execFile } from 'child_process';
+import { promisify } from 'util';
+import os from 'os';
+
+const execFileAsync = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BOOKS_DIR = path.join(__dirname, '..', 'books');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const WORDS_PER_PAGE = 1000;
+const WORDS_PER_SYNTHETIC_CHAPTER = 5000;
 
 //--------------------------------------------------------------
 // HELPERS
@@ -48,66 +56,67 @@ function splitIntoPages(text, wordsPerPage = WORDS_PER_PAGE) {
   return pages;
 }
 
+// Split flat text into synthetic chapters of ~N words each
+function makeSyntheticChapters(text, wordsPerChapter = WORDS_PER_SYNTHETIC_CHAPTER) {
+  const words = text.split(/\s+/).filter(Boolean);
+  const chapters = [];
+  for (let i = 0; i < words.length; i += wordsPerChapter) {
+    chapters.push(words.slice(i, i + wordsPerChapter).join(' '));
+  }
+  return chapters;
+}
+
+// Parse title + author from Anna's Archive filename format:
+// "[1] Title -- Author -- ... -- Anna's Archive.ext"
+function parseFilename(filename) {
+  const withoutExt = filename.replace(/\.[^.]+$/, '');
+  const parts = withoutExt.split(' -- ');
+  // Strip leading series number like "[1] "
+  const rawTitle = parts[0].trim().replace(/^\[\d+\]\s*/, '');
+  const rawAuthor = parts[1]?.trim() || 'Unknown';
+  // Clean up author (e.g. "Maas, Sarah J_" → keep as-is, underscore cleanup)
+  const author = rawAuthor.replace(/_/g, '.').split(';')[0].trim();
+  return { title: rawTitle, author };
+}
+
 //--------------------------------------------------------------
-// PROCESS A SINGLE EPUB
+// WRITE BOOK DATA (shared between all formats)
 //--------------------------------------------------------------
 
-async function processEpub(filePath) {
-  const filename = path.basename(filePath);
-  const epub = await EPub.createAsync(filePath);
-
-  const title = epub.metadata.title || path.basename(filePath, '.epub');
-  const author = epub.metadata.creator || epub.metadata.author || 'Unknown';
-  const description = epub.metadata.description
-    ? htmlToText(epub.metadata.description).slice(0, 500)
-    : '';
-  const id = slugify(title) || slugify(path.basename(filePath, '.epub'));
-
+async function writeBookData({ id, title, author, description, filename, chapterTexts }) {
   const bookDir = path.join(DATA_DIR, id);
   const chaptersDir = path.join(bookDir, 'chapters');
   const pagesDir = path.join(bookDir, 'pages');
   await fs.mkdir(chaptersDir, { recursive: true });
   await fs.mkdir(pagesDir, { recursive: true });
 
-  // Extract and write chapters
   const chaptersMeta = [];
   let allText = '';
   let globalPageStart = 1;
 
-  for (const item of epub.flow) {
-    if (!item.id) continue;
-    try {
-      const html = await epub.getChapterAsync(item.id);
-      const text = htmlToText(html);
-      if (!text || text.split(/\s+/).filter(Boolean).length < 30) continue;
+  for (let i = 0; i < chapterTexts.length; i++) {
+    const { title: chapterTitle, text } = chapterTexts[i];
+    const wordCount = text.split(/\s+/).filter(Boolean).length;
+    const chapterPages = splitIntoPages(text);
+    const chapterIndex = i + 1;
 
-      const wordCount = text.split(/\s+/).filter(Boolean).length;
-      const chapterPages = splitIntoPages(text);
-      const chapterIndex = chaptersMeta.length + 1;
-      const chapterTitle = item.title || `Chapter ${chapterIndex}`;
+    chaptersMeta.push({
+      index: chapterIndex,
+      title: chapterTitle,
+      wordCount,
+      pageCount: chapterPages.length,
+      startPage: globalPageStart,
+    });
 
-      chaptersMeta.push({
-        index: chapterIndex,
-        title: chapterTitle,
-        wordCount,
-        pageCount: chapterPages.length,
-        startPage: globalPageStart,
-      });
+    await fs.writeFile(
+      path.join(chaptersDir, `${chapterIndex}.json`),
+      JSON.stringify({ index: chapterIndex, title: chapterTitle, wordCount, text }, null, 2)
+    );
 
-      await fs.writeFile(
-        path.join(chaptersDir, `${chapterIndex}.json`),
-        JSON.stringify({ index: chapterIndex, title: chapterTitle, wordCount, text }, null, 2)
-      );
-
-      allText += (allText ? ' ' : '') + text;
-      globalPageStart += chapterPages.length;
-
-    } catch (err) {
-      // skip unreadable chapters silently
-    }
+    allText += (allText ? ' ' : '') + text;
+    globalPageStart += chapterPages.length;
   }
 
-  // Write pages (global, cross-chapter)
   const allPages = splitIntoPages(allText);
   for (let i = 0; i < allPages.length; i++) {
     await fs.writeFile(
@@ -118,13 +127,8 @@ async function processEpub(filePath) {
 
   const totalWords = allText.split(/\s+/).filter(Boolean).length;
 
-  // Write book info
   const info = {
-    id,
-    title,
-    author,
-    description,
-    filename,
+    id, title, author, description, filename,
     totalWords,
     totalPages: allPages.length,
     totalChapters: chaptersMeta.length,
@@ -132,15 +136,95 @@ async function processEpub(filePath) {
   };
   await fs.writeFile(path.join(bookDir, 'info.json'), JSON.stringify(info, null, 2));
 
-  return {
-    id,
-    title,
-    author,
-    description,
-    totalWords,
-    totalPages: allPages.length,
-    totalChapters: chaptersMeta.length,
-  };
+  return { id, title, author, description, totalWords, totalPages: allPages.length, totalChapters: chaptersMeta.length };
+}
+
+//--------------------------------------------------------------
+// EPUB
+//--------------------------------------------------------------
+
+async function processEpub(filePath) {
+  const filename = path.basename(filePath);
+  const epub = await EPub.createAsync(filePath);
+
+  const title = epub.metadata.title || parseFilename(filename).title;
+  const author = epub.metadata.creator || epub.metadata.author || parseFilename(filename).author;
+  const description = epub.metadata.description
+    ? htmlToText(epub.metadata.description).slice(0, 500)
+    : '';
+  const id = slugify(title) || slugify(path.basename(filePath, '.epub'));
+
+  const chapterTexts = [];
+  for (const item of epub.flow) {
+    if (!item.id) continue;
+    try {
+      const html = await epub.getChapterAsync(item.id);
+      const text = htmlToText(html);
+      if (!text || text.split(/\s+/).filter(Boolean).length < 30) continue;
+      chapterTexts.push({ title: item.title || `Chapter ${chapterTexts.length + 1}`, text });
+    } catch {
+      // skip unreadable chapters
+    }
+  }
+
+  return writeBookData({ id, title, author, description, filename, chapterTexts });
+}
+
+//--------------------------------------------------------------
+// PDF
+//--------------------------------------------------------------
+
+async function processPdf(filePath) {
+  const filename = path.basename(filePath);
+  const { title: fnTitle, author: fnAuthor } = parseFilename(filename);
+
+  const dataBuffer = await fs.readFile(filePath);
+  const data = await pdfParse(dataBuffer);
+
+  const title = data.info?.Title?.trim() || fnTitle;
+  const author = data.info?.Author?.trim() || fnAuthor;
+  const id = slugify(title) || slugify(path.basename(filePath, '.pdf'));
+
+  const syntheticChapters = makeSyntheticChapters(data.text.replace(/\s+/g, ' ').trim());
+  const chapterTexts = syntheticChapters.map((text, i) => ({
+    title: `Part ${i + 1}`,
+    text,
+  }));
+
+  return writeBookData({ id, title, author, description: '', filename, chapterTexts });
+}
+
+//--------------------------------------------------------------
+// MOBI / AZW3 (via calibre ebook-convert)
+//--------------------------------------------------------------
+
+async function processMobiAzw3(filePath) {
+  const filename = path.basename(filePath);
+  const { title: fnTitle, author: fnAuthor } = parseFilename(filename);
+  const ext = path.extname(filePath).toLowerCase().slice(1);
+
+  // Check calibre is available
+  const calibreAvailable = await execFileAsync('which', ['ebook-convert'])
+    .then(() => true)
+    .catch(() => false);
+
+  if (!calibreAvailable) {
+    throw new Error('calibre not installed — cannot process .mobi/.azw3 files');
+  }
+
+  const tmpTxt = path.join(os.tmpdir(), `${path.basename(filePath, '.' + ext)}.txt`);
+  await execFileAsync('ebook-convert', [filePath, tmpTxt, '--txt-output-formatting=markdown']);
+  const rawText = await fs.readFile(tmpTxt, 'utf8');
+  await fs.unlink(tmpTxt).catch(() => {});
+
+  const id = slugify(fnTitle) || slugify(path.basename(filePath, '.' + ext));
+  const syntheticChapters = makeSyntheticChapters(rawText.replace(/\s+/g, ' ').trim());
+  const chapterTexts = syntheticChapters.map((text, i) => ({
+    title: `Part ${i + 1}`,
+    text,
+  }));
+
+  return writeBookData({ id, title: fnTitle, author: fnAuthor, description: '', filename, chapterTexts });
 }
 
 //--------------------------------------------------------------
@@ -151,25 +235,29 @@ async function main() {
   await fs.mkdir(DATA_DIR, { recursive: true });
   await fs.mkdir(BOOKS_DIR, { recursive: true });
 
-  let files;
-  try {
-    files = (await fs.readdir(BOOKS_DIR)).filter(f => f.toLowerCase().endsWith('.epub'));
-  } catch {
-    files = [];
-  }
+  const allFiles = await fs.readdir(BOOKS_DIR).catch(() => []);
+  const supported = /\.(epub|pdf|mobi|azw3)$/i;
+  const files = allFiles.filter(f => supported.test(f));
 
-  console.log(`Found ${files.length} epub file(s)`);
+  console.log(`Found ${files.length} book file(s)`);
 
   const index = [];
 
   for (const file of files) {
-    console.log(`Processing: ${file}`);
+    const filePath = path.join(BOOKS_DIR, file);
+    const ext = path.extname(file).toLowerCase();
+    console.log(`Processing [${ext.slice(1)}]: ${file}`);
     try {
-      const entry = await processEpub(path.join(BOOKS_DIR, file));
-      index.push(entry);
-      console.log(`  ✓ "${entry.title}" by ${entry.author} — ${entry.totalChapters} chapters, ${entry.totalPages} pages`);
+      let entry;
+      if (ext === '.epub') entry = await processEpub(filePath);
+      else if (ext === '.pdf') entry = await processPdf(filePath);
+      else if (ext === '.mobi' || ext === '.azw3') entry = await processMobiAzw3(filePath);
+      if (entry) {
+        index.push(entry);
+        console.log(`  ✓ "${entry.title}" by ${entry.author} — ${entry.totalChapters} parts/chapters, ${entry.totalPages} pages`);
+      }
     } catch (err) {
-      console.error(`  ✗ Failed: ${err.message}`);
+      console.error(`  ✗ Failed (${file}): ${err.message}`);
     }
   }
 
