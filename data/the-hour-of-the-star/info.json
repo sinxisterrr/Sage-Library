@@ -1,0 +1,54 @@
+{
+  "id": "the-hour-of-the-star",
+  "title": "The Hour of the Star",
+  "author": "Clarice Lispector",
+  "description": "",
+  "filename": "The Hour of the Star -- Clarice Lispector -- 2022 -- f87460528333555881a7e444917b305d -- Anna’s Archive.pdf",
+  "totalWords": 28856,
+  "totalPages": 29,
+  "totalChapters": 6,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Part 1",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Part 2",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 6
+    },
+    {
+      "index": 3,
+      "title": "Part 3",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 11
+    },
+    {
+      "index": 4,
+      "title": "Part 4",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 16
+    },
+    {
+      "index": 5,
+      "title": "Part 5",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 21
+    },
+    {
+      "index": 6,
+      "title": "Part 6",
+      "wordCount": 3856,
+      "pageCount": 4,
+      "startPage": 26
+    }
+  ]
+}
