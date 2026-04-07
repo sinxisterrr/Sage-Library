@@ -1,0 +1,23 @@
+{
+  "books": [
+    {
+      "id": "a-court-of-mist-and-fury",
+      "title": "A Court of Mist and Fury",
+      "author": "Sarah J. Maas",
+      "description": "The stunning sequel to Sarah J. Maas' New York Times bestselling A Court of Thorns and Roses . Feyre survived Amarantha's clutches to return to the Spring Court – but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can't forget the terrible deeds she performed to save Tamlin's people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a gre",
+      "totalWords": 186134,
+      "totalPages": 187,
+      "totalChapters": 75
+    },
+    {
+      "id": "a-court-of-wings-and-ruin",
+      "title": "A Court of Wings and Ruin",
+      "author": "Sarah J. Maas",
+      "description": "THE THIRD BOOK IN THE #1 BESTSELLING SERIES 'With bits of Buffy, Game Of Thrones and Outlander, this is a glorious series of total joy' STYLIST ____ __ Feyre has returned to the Spring Court, determined to gather information on Tamlin's manoeuvrings and the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit - and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who t",
+      "totalWords": 200004,
+      "totalPages": 201,
+      "totalChapters": 89
+    }
+  ],
+  "updatedAt": "2026-04-07T08:12:15.021Z"
+}
