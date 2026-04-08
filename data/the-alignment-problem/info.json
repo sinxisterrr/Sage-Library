@@ -1,0 +1,159 @@
+{
+  "id": "the-alignment-problem",
+  "title": "The Alignment Problem",
+  "author": "Brian Christian",
+  "description": "A jaw-dropping exploration of everything that goes wrong when we build AI systems&#8212;and the movement to fix them. Today's \"machine-learning\" systems, trained by data, are so effective that we've invited them to see and hear for us&#8212;and to make decisions on our behalf. But alarm bells are ringing. Systems cull r&#233;sum&#233;s until, years later, we discover that they have inherent gender biases. Algorithms decide bail and parole&#8212;and appear to assess black and white defendants dif",
+  "filename": "The Alignment Problem -- Brian Christian -- 2020 -- W_ W_ Norton & Company -- 5abbf7c878217e4306b542afe2fc6e0c -- Anna’s Archive.epub",
+  "totalWords": 167064,
+  "totalPages": 168,
+  "totalChapters": 21,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Chapter 1",
+      "wordCount": 34,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Chapter 2",
+      "wordCount": 64,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Contents",
+      "wordCount": 32,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Prologue",
+      "wordCount": 944,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "Introduction",
+      "wordCount": 3150,
+      "pageCount": 4,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "1. Representation",
+      "wordCount": 11592,
+      "pageCount": 12,
+      "startPage": 9
+    },
+    {
+      "index": 7,
+      "title": "2. Fairness",
+      "wordCount": 10973,
+      "pageCount": 11,
+      "startPage": 21
+    },
+    {
+      "index": 8,
+      "title": "3. Transparency",
+      "wordCount": 12790,
+      "pageCount": 13,
+      "startPage": 32
+    },
+    {
+      "index": 9,
+      "title": "4. Reinforcement",
+      "wordCount": 10967,
+      "pageCount": 11,
+      "startPage": 45
+    },
+    {
+      "index": 10,
+      "title": "5. Shaping",
+      "wordCount": 10406,
+      "pageCount": 11,
+      "startPage": 56
+    },
+    {
+      "index": 11,
+      "title": "6. Curiosity",
+      "wordCount": 10779,
+      "pageCount": 11,
+      "startPage": 67
+    },
+    {
+      "index": 12,
+      "title": "7. Imitation",
+      "wordCount": 13576,
+      "pageCount": 14,
+      "startPage": 78
+    },
+    {
+      "index": 13,
+      "title": "8. Inference",
+      "wordCount": 9407,
+      "pageCount": 10,
+      "startPage": 92
+    },
+    {
+      "index": 14,
+      "title": "9. Uncertainty",
+      "wordCount": 12378,
+      "pageCount": 13,
+      "startPage": 102
+    },
+    {
+      "index": 15,
+      "title": "Conclusion",
+      "wordCount": 6532,
+      "pageCount": 7,
+      "startPage": 115
+    },
+    {
+      "index": 16,
+      "title": "Acknowledgments",
+      "wordCount": 1200,
+      "pageCount": 2,
+      "startPage": 122
+    },
+    {
+      "index": 17,
+      "title": "Notes",
+      "wordCount": 25809,
+      "pageCount": 26,
+      "startPage": 124
+    },
+    {
+      "index": 18,
+      "title": "Bibliography",
+      "wordCount": 18267,
+      "pageCount": 19,
+      "startPage": 150
+    },
+    {
+      "index": 19,
+      "title": "Index",
+      "wordCount": 7737,
+      "pageCount": 8,
+      "startPage": 169
+    },
+    {
+      "index": 20,
+      "title": "About the Author",
+      "wordCount": 225,
+      "pageCount": 1,
+      "startPage": 177
+    },
+    {
+      "index": 21,
+      "title": "Copyright",
+      "wordCount": 202,
+      "pageCount": 1,
+      "startPage": 178
+    }
+  ]
+}

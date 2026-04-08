@@ -28,6 +28,15 @@
       "totalChapters": 30
     },
     {
+      "id": "the-alignment-problem",
+      "title": "The Alignment Problem",
+      "author": "Brian Christian",
+      "description": "A jaw-dropping exploration of everything that goes wrong when we build AI systems&#8212;and the movement to fix them. Today's \"machine-learning\" systems, trained by data, are so effective that we've invited them to see and hear for us&#8212;and to make decisions on our behalf. But alarm bells are ringing. Systems cull r&#233;sum&#233;s until, years later, we discover that they have inherent gender biases. Algorithms decide bail and parole&#8212;and appear to assess black and white defendants dif",
+      "totalWords": 167064,
+      "totalPages": 168,
+      "totalChapters": 21
+    },
+    {
       "id": "the-body-keeps-the-score",
       "title": "The Body Keeps the Score",
       "author": "Bessel van der Kolk MD",
@@ -100,5 +109,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:34:30.274Z"
+  "updatedAt": "2026-04-08T02:37:03.894Z"
 }
