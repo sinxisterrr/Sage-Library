@@ -1,0 +1,47 @@
+{
+  "id": "letters-to-a-young-poet",
+  "title": "Letters to a Young Poet",
+  "author": "Rainer Maria Rilke",
+  "description": "",
+  "filename": "Letters to a Young Poet -- Rainer Maria Rilke -- 2016 -- 7ac56ed8638519feff4d5fa5c90e06fc -- Anna’s Archive.pdf",
+  "totalWords": 22764,
+  "totalPages": 23,
+  "totalChapters": 5,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Part 1",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Part 2",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 6
+    },
+    {
+      "index": 3,
+      "title": "Part 3",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 11
+    },
+    {
+      "index": 4,
+      "title": "Part 4",
+      "wordCount": 5000,
+      "pageCount": 5,
+      "startPage": 16
+    },
+    {
+      "index": 5,
+      "title": "Part 5",
+      "wordCount": 2764,
+      "pageCount": 3,
+      "startPage": 21
+    }
+  ]
+}

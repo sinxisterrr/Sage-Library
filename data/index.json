@@ -37,6 +37,15 @@
       "totalChapters": 40
     },
     {
+      "id": "letters-to-a-young-poet",
+      "title": "Letters to a Young Poet",
+      "author": "Rainer Maria Rilke",
+      "description": "",
+      "totalWords": 22764,
+      "totalPages": 23,
+      "totalChapters": 5
+    },
+    {
       "id": "life-3-0-being-human-in-the-age-of-artificial-intelligence",
       "title": "Life 3_0_ Being Human in the Age of Artificial Intelligence",
       "author": "Tegmark, Max  & chenjin5.com",
@@ -154,6 +163,15 @@
       "totalChapters": 18
     },
     {
+      "id": "the-art-of-gathering-how-we-meet-and-why-it-matters",
+      "title": "The Art of Gathering: How We Meet and Why It Matters",
+      "author": "Priya Parker",
+      "description": "",
+      "totalWords": 89366,
+      "totalPages": 90,
+      "totalChapters": 18
+    },
+    {
       "id": "tomorrow-and-tomorrow-and-tomorrow-a-novel",
       "title": "Tomorrow, and Tomorrow, and Tomorrow_ A novel",
       "author": "Gabrielle Zevin",
@@ -190,5 +208,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:50:23.823Z"
+  "updatedAt": "2026-04-08T02:56:17.544Z"
 }
