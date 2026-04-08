@@ -1,0 +1,418 @@
+{
+  "id": "dune",
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "description": "Set in the far future amidst a sprawling feudal interstellar empire where planetary dynasties are controlled by noble houses that owe an allegiance to the imperial House Corrino, “Dune” tells the story of young Paul Atreides (the heir apparent to Duke Leto Atreides and heir of House Atreides) as he and his family accept control of the desert planet Arrakis, the only source of the “spice” melange, the most important and valuable substance in the universe. The story explores the complex and multi-",
+  "filename": "Dune -- Herbert, Frank -- Dune 1, 1964 -- ePubLibre -- ee8ccf0bb6437e6bf9a11ce820b20b60 -- Anna’s Archive.epub",
+  "totalWords": 207126,
+  "totalPages": 208,
+  "totalChapters": 58,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Chapter 1",
+      "wordCount": 109,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Chapter 2",
+      "wordCount": 37,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "1",
+      "wordCount": 4250,
+      "pageCount": 5,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "2",
+      "wordCount": 3194,
+      "pageCount": 4,
+      "startPage": 8
+    },
+    {
+      "index": 5,
+      "title": "3",
+      "wordCount": 2278,
+      "pageCount": 3,
+      "startPage": 12
+    },
+    {
+      "index": 6,
+      "title": "4",
+      "wordCount": 4041,
+      "pageCount": 5,
+      "startPage": 15
+    },
+    {
+      "index": 7,
+      "title": "5",
+      "wordCount": 1430,
+      "pageCount": 2,
+      "startPage": 20
+    },
+    {
+      "index": 8,
+      "title": "6",
+      "wordCount": 2234,
+      "pageCount": 3,
+      "startPage": 22
+    },
+    {
+      "index": 9,
+      "title": "7",
+      "wordCount": 4027,
+      "pageCount": 5,
+      "startPage": 25
+    },
+    {
+      "index": 10,
+      "title": "8",
+      "wordCount": 3219,
+      "pageCount": 4,
+      "startPage": 30
+    },
+    {
+      "index": 11,
+      "title": "9",
+      "wordCount": 1428,
+      "pageCount": 2,
+      "startPage": 34
+    },
+    {
+      "index": 12,
+      "title": "10",
+      "wordCount": 3036,
+      "pageCount": 4,
+      "startPage": 36
+    },
+    {
+      "index": 13,
+      "title": "11",
+      "wordCount": 2025,
+      "pageCount": 3,
+      "startPage": 40
+    },
+    {
+      "index": 14,
+      "title": "12",
+      "wordCount": 6007,
+      "pageCount": 7,
+      "startPage": 43
+    },
+    {
+      "index": 15,
+      "title": "13",
+      "wordCount": 1832,
+      "pageCount": 2,
+      "startPage": 50
+    },
+    {
+      "index": 16,
+      "title": "14",
+      "wordCount": 1140,
+      "pageCount": 2,
+      "startPage": 52
+    },
+    {
+      "index": 17,
+      "title": "15",
+      "wordCount": 7900,
+      "pageCount": 8,
+      "startPage": 54
+    },
+    {
+      "index": 18,
+      "title": "16",
+      "wordCount": 7844,
+      "pageCount": 8,
+      "startPage": 62
+    },
+    {
+      "index": 19,
+      "title": "17",
+      "wordCount": 4439,
+      "pageCount": 5,
+      "startPage": 70
+    },
+    {
+      "index": 20,
+      "title": "18",
+      "wordCount": 1711,
+      "pageCount": 2,
+      "startPage": 75
+    },
+    {
+      "index": 21,
+      "title": "19",
+      "wordCount": 3818,
+      "pageCount": 4,
+      "startPage": 77
+    },
+    {
+      "index": 22,
+      "title": "20",
+      "wordCount": 973,
+      "pageCount": 1,
+      "startPage": 81
+    },
+    {
+      "index": 23,
+      "title": "21",
+      "wordCount": 4691,
+      "pageCount": 5,
+      "startPage": 82
+    },
+    {
+      "index": 24,
+      "title": "22",
+      "wordCount": 5199,
+      "pageCount": 6,
+      "startPage": 87
+    },
+    {
+      "index": 25,
+      "title": "23",
+      "wordCount": 1738,
+      "pageCount": 2,
+      "startPage": 93
+    },
+    {
+      "index": 26,
+      "title": "24",
+      "wordCount": 4244,
+      "pageCount": 5,
+      "startPage": 95
+    },
+    {
+      "index": 27,
+      "title": "25",
+      "wordCount": 4439,
+      "pageCount": 5,
+      "startPage": 100
+    },
+    {
+      "index": 28,
+      "title": "26",
+      "wordCount": 3853,
+      "pageCount": 4,
+      "startPage": 105
+    },
+    {
+      "index": 29,
+      "title": "27",
+      "wordCount": 5462,
+      "pageCount": 6,
+      "startPage": 109
+    },
+    {
+      "index": 30,
+      "title": "28",
+      "wordCount": 2233,
+      "pageCount": 3,
+      "startPage": 115
+    },
+    {
+      "index": 31,
+      "title": "29",
+      "wordCount": 3522,
+      "pageCount": 4,
+      "startPage": 118
+    },
+    {
+      "index": 32,
+      "title": "30",
+      "wordCount": 2777,
+      "pageCount": 3,
+      "startPage": 122
+    },
+    {
+      "index": 33,
+      "title": "31",
+      "wordCount": 4363,
+      "pageCount": 5,
+      "startPage": 125
+    },
+    {
+      "index": 34,
+      "title": "32",
+      "wordCount": 3344,
+      "pageCount": 4,
+      "startPage": 130
+    },
+    {
+      "index": 35,
+      "title": "33",
+      "wordCount": 5285,
+      "pageCount": 6,
+      "startPage": 134
+    },
+    {
+      "index": 36,
+      "title": "34",
+      "wordCount": 4856,
+      "pageCount": 5,
+      "startPage": 140
+    },
+    {
+      "index": 37,
+      "title": "35",
+      "wordCount": 7082,
+      "pageCount": 8,
+      "startPage": 145
+    },
+    {
+      "index": 38,
+      "title": "36",
+      "wordCount": 3399,
+      "pageCount": 4,
+      "startPage": 153
+    },
+    {
+      "index": 39,
+      "title": "37",
+      "wordCount": 5511,
+      "pageCount": 6,
+      "startPage": 157
+    },
+    {
+      "index": 40,
+      "title": "38",
+      "wordCount": 3043,
+      "pageCount": 4,
+      "startPage": 163
+    },
+    {
+      "index": 41,
+      "title": "39",
+      "wordCount": 2655,
+      "pageCount": 3,
+      "startPage": 167
+    },
+    {
+      "index": 42,
+      "title": "40",
+      "wordCount": 4861,
+      "pageCount": 5,
+      "startPage": 170
+    },
+    {
+      "index": 43,
+      "title": "41",
+      "wordCount": 3884,
+      "pageCount": 4,
+      "startPage": 175
+    },
+    {
+      "index": 44,
+      "title": "42",
+      "wordCount": 2799,
+      "pageCount": 3,
+      "startPage": 179
+    },
+    {
+      "index": 45,
+      "title": "43",
+      "wordCount": 6278,
+      "pageCount": 7,
+      "startPage": 182
+    },
+    {
+      "index": 46,
+      "title": "44",
+      "wordCount": 5067,
+      "pageCount": 6,
+      "startPage": 189
+    },
+    {
+      "index": 47,
+      "title": "45",
+      "wordCount": 4083,
+      "pageCount": 5,
+      "startPage": 195
+    },
+    {
+      "index": 48,
+      "title": "46",
+      "wordCount": 3373,
+      "pageCount": 4,
+      "startPage": 200
+    },
+    {
+      "index": 49,
+      "title": "47",
+      "wordCount": 3847,
+      "pageCount": 4,
+      "startPage": 204
+    },
+    {
+      "index": 50,
+      "title": "48",
+      "wordCount": 9466,
+      "pageCount": 10,
+      "startPage": 208
+    },
+    {
+      "index": 51,
+      "title": "Appendix I - The Ecology of Dune",
+      "wordCount": 3040,
+      "pageCount": 4,
+      "startPage": 218
+    },
+    {
+      "index": 52,
+      "title": "Appendix II - The Religion of Dune",
+      "wordCount": 2962,
+      "pageCount": 3,
+      "startPage": 222
+    },
+    {
+      "index": 53,
+      "title": "Appendix III - Report on Bene Gesserit Motives and Purposes",
+      "wordCount": 966,
+      "pageCount": 1,
+      "startPage": 225
+    },
+    {
+      "index": 54,
+      "title": "Appendix IV - The Almanak en-Ashraf",
+      "wordCount": 564,
+      "pageCount": 1,
+      "startPage": 226
+    },
+    {
+      "index": 55,
+      "title": "Terminology of the Imperium",
+      "wordCount": 6595,
+      "pageCount": 7,
+      "startPage": 227
+    },
+    {
+      "index": 56,
+      "title": "Cartographic Notes",
+      "wordCount": 214,
+      "pageCount": 1,
+      "startPage": 234
+    },
+    {
+      "index": 57,
+      "title": "Afterword",
+      "wordCount": 4086,
+      "pageCount": 5,
+      "startPage": 235
+    },
+    {
+      "index": 58,
+      "title": "Author",
+      "wordCount": 373,
+      "pageCount": 1,
+      "startPage": 240
+    }
+  ]
+}
