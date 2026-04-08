@@ -1,0 +1,68 @@
+{
+  "id": "discworld-04-mort",
+  "title": "Discworld 04 - Mort",
+  "author": "Pratchett, Terry",
+  "description": "",
+  "filename": "Mort -- Terry, Pratchett -- Discworld, 4, 2010 -- 20e705325ccb96115fc10140265e8fee -- Anna’s Archive.epub",
+  "totalWords": 73092,
+  "totalPages": 74,
+  "totalChapters": 8,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Part 1",
+      "wordCount": 9385,
+      "pageCount": 10,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Part 2",
+      "wordCount": 9311,
+      "pageCount": 10,
+      "startPage": 11
+    },
+    {
+      "index": 3,
+      "title": "Part 3",
+      "wordCount": 9338,
+      "pageCount": 10,
+      "startPage": 21
+    },
+    {
+      "index": 4,
+      "title": "Part 4",
+      "wordCount": 9350,
+      "pageCount": 10,
+      "startPage": 31
+    },
+    {
+      "index": 5,
+      "title": "Part 5",
+      "wordCount": 9318,
+      "pageCount": 10,
+      "startPage": 41
+    },
+    {
+      "index": 6,
+      "title": "Part 6",
+      "wordCount": 9461,
+      "pageCount": 10,
+      "startPage": 51
+    },
+    {
+      "index": 7,
+      "title": "Part 7",
+      "wordCount": 9236,
+      "pageCount": 10,
+      "startPage": 61
+    },
+    {
+      "index": 8,
+      "title": "Part 8",
+      "wordCount": 7693,
+      "pageCount": 8,
+      "startPage": 71
+    }
+  ]
+}
