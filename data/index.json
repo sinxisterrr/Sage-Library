@@ -73,6 +73,15 @@
       "totalChapters": 8
     },
     {
+      "id": "pratchett-terry-discworld-16-soul-music",
+      "title": "Pratchett, Terry - Discworld 16 - Soul Music",
+      "author": "Pratchett, Terry",
+      "description": "",
+      "totalWords": 97125,
+      "totalPages": 98,
+      "totalChapters": 20
+    },
+    {
       "id": "project-hail-mary",
       "title": "Project Hail Mary",
       "author": "Andy Weir",
@@ -244,5 +253,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T18:55:02.839Z"
+  "updatedAt": "2026-04-08T18:59:12.173Z"
 }
