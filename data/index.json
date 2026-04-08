@@ -19,6 +19,24 @@
       "totalChapters": 14
     },
     {
+      "id": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "description": "",
+      "totalWords": 149588,
+      "totalPages": 150,
+      "totalChapters": 30
+    },
+    {
+      "id": "the-body-keeps-the-score",
+      "title": "The Body Keeps the Score",
+      "author": "Bessel van der Kolk MD",
+      "description": "A pioneering researcher and one of the world's foremost experts on traumatic stress offers a bold new paradigm for healing Trauma is a fact of life. One in five Americans has been molested; one in four grew up with alcoholics; one in three couples have engaged in physical violence; veterans and their families deal with the painful aftermath of combat. Such experiences inevitably leave traces on minds, emotions, and even on biology. Sadly, trauma sufferers frequently pass on their stress to their",
+      "totalWords": 174722,
+      "totalPages": 175,
+      "totalChapters": 31
+    },
+    {
       "id": "the-book-of-disquiet-penguin-classics",
       "title": "The Book of Disquiet (Penguin Classics)",
       "author": "Pessoa, Fernando",
@@ -82,5 +100,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:31:59.595Z"
+  "updatedAt": "2026-04-08T02:34:30.274Z"
 }
