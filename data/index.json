@@ -1,6 +1,15 @@
 {
   "books": [
     {
+      "id": "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love",
+      "title": "Attached: Are you Anxious, Avoidant or Secure? How the science of adult attachment can help you find – and keep – love",
+      "author": "Levine, Amir",
+      "description": "",
+      "totalWords": 67370,
+      "totalPages": 68,
+      "totalChapters": 24
+    },
+    {
       "id": "piranesi",
       "title": "Piranesi",
       "author": "Susanna Clarke",
@@ -73,5 +82,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-07T08:23:29.500Z"
+  "updatedAt": "2026-04-08T02:31:59.595Z"
 }
