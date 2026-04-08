@@ -158,9 +158,9 @@
       "title": "The Snow Queen",
       "author": "Joan D. Vinge",
       "description": "",
-      "totalWords": 185691,
+      "totalWords": 185942,
       "totalPages": 186,
-      "totalChapters": 7
+      "totalChapters": 61
     },
     {
       "id": "the-society-of-the-spectacle",
@@ -244,5 +244,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T18:32:45.679Z"
+  "updatedAt": "2026-04-08T18:55:02.839Z"
 }
