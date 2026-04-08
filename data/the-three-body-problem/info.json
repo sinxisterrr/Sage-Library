@@ -1,0 +1,460 @@
+{
+  "id": "the-three-body-problem",
+  "title": "The Three-Body Problem",
+  "author": "Cixin Liu",
+  "description": "",
+  "filename": "The Three-Body Problem -- Liu, Cixin -- 2014 -- Tom Doherty Associates -- 3f99afa38fc1061c8ab7ec4455fb8916 -- Anna’s Archive.epub",
+  "totalWords": 118853,
+  "totalPages": 119,
+  "totalChapters": 64,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Copyright Notice",
+      "wordCount": 102,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "List of Characters",
+      "wordCount": 167,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Contents",
+      "wordCount": 208,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "1. The Madness Years",
+      "wordCount": 4362,
+      "pageCount": 5,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "2. Silent Spring",
+      "wordCount": 5871,
+      "pageCount": 6,
+      "startPage": 9
+    },
+    {
+      "index": 6,
+      "title": "3. Red Coast I",
+      "wordCount": 2636,
+      "pageCount": 3,
+      "startPage": 15
+    },
+    {
+      "index": 7,
+      "title": "4. The Frontiers of Science",
+      "wordCount": 4886,
+      "pageCount": 5,
+      "startPage": 18
+    },
+    {
+      "index": 8,
+      "title": "5. A Game of Pool",
+      "wordCount": 1594,
+      "pageCount": 2,
+      "startPage": 23
+    },
+    {
+      "index": 9,
+      "title": "6. The Shooter and the Farmer",
+      "wordCount": 6685,
+      "pageCount": 7,
+      "startPage": 25
+    },
+    {
+      "index": 10,
+      "title": "7. Three Body: King Wen of Zhou and the Long Night",
+      "wordCount": 5560,
+      "pageCount": 6,
+      "startPage": 32
+    },
+    {
+      "index": 11,
+      "title": "8. Ye Wenjie",
+      "wordCount": 2245,
+      "pageCount": 3,
+      "startPage": 38
+    },
+    {
+      "index": 12,
+      "title": "9. The Universe Flickers",
+      "wordCount": 3546,
+      "pageCount": 4,
+      "startPage": 41
+    },
+    {
+      "index": 13,
+      "title": "10. Da Shi",
+      "wordCount": 2324,
+      "pageCount": 3,
+      "startPage": 45
+    },
+    {
+      "index": 14,
+      "title": "11. Three Body: Mozi and Fiery Flames",
+      "wordCount": 4070,
+      "pageCount": 5,
+      "startPage": 48
+    },
+    {
+      "index": 15,
+      "title": "12. Red Coast II",
+      "wordCount": 3519,
+      "pageCount": 4,
+      "startPage": 53
+    },
+    {
+      "index": 16,
+      "title": "13. Red Coast III",
+      "wordCount": 2031,
+      "pageCount": 3,
+      "startPage": 57
+    },
+    {
+      "index": 17,
+      "title": "14. Red Coast IV",
+      "wordCount": 1672,
+      "pageCount": 2,
+      "startPage": 60
+    },
+    {
+      "index": 18,
+      "title": "15. Three Body: Copernicus, Universal Football, and Tri-Solar Day",
+      "wordCount": 2641,
+      "pageCount": 3,
+      "startPage": 62
+    },
+    {
+      "index": 19,
+      "title": "16. The Three-Body Problem",
+      "wordCount": 5856,
+      "pageCount": 6,
+      "startPage": 65
+    },
+    {
+      "index": 20,
+      "title": "17. Three Body: Newton, Von Neumann, the First Emperor, and Tri-Solar Syzygy",
+      "wordCount": 5813,
+      "pageCount": 6,
+      "startPage": 71
+    },
+    {
+      "index": 21,
+      "title": "18. Meet-up",
+      "wordCount": 1822,
+      "pageCount": 2,
+      "startPage": 77
+    },
+    {
+      "index": 22,
+      "title": "19. Three Body: Einstein, the Pendulum Monument, and the Great Rip",
+      "wordCount": 3569,
+      "pageCount": 4,
+      "startPage": 79
+    },
+    {
+      "index": 23,
+      "title": "20. Three Body: Expedition",
+      "wordCount": 726,
+      "pageCount": 1,
+      "startPage": 83
+    },
+    {
+      "index": 24,
+      "title": "21. Rebels of Earth",
+      "wordCount": 2369,
+      "pageCount": 3,
+      "startPage": 84
+    },
+    {
+      "index": 25,
+      "title": "22. Red Coast V",
+      "wordCount": 3915,
+      "pageCount": 4,
+      "startPage": 87
+    },
+    {
+      "index": 26,
+      "title": "23. Red Coast VI",
+      "wordCount": 2511,
+      "pageCount": 3,
+      "startPage": 91
+    },
+    {
+      "index": 27,
+      "title": "24. Rebellion",
+      "wordCount": 1692,
+      "pageCount": 2,
+      "startPage": 94
+    },
+    {
+      "index": 28,
+      "title": "25. The Deaths of Lei Zhicheng and Yang Weining",
+      "wordCount": 1684,
+      "pageCount": 2,
+      "startPage": 96
+    },
+    {
+      "index": 29,
+      "title": "26. No One Repents",
+      "wordCount": 4915,
+      "pageCount": 5,
+      "startPage": 98
+    },
+    {
+      "index": 30,
+      "title": "27. Evans",
+      "wordCount": 3254,
+      "pageCount": 4,
+      "startPage": 103
+    },
+    {
+      "index": 31,
+      "title": "28. The Second Red Coast Base",
+      "wordCount": 618,
+      "pageCount": 1,
+      "startPage": 107
+    },
+    {
+      "index": 32,
+      "title": "29. The Earth-Trisolaris Movement",
+      "wordCount": 1597,
+      "pageCount": 2,
+      "startPage": 108
+    },
+    {
+      "index": 33,
+      "title": "30. Two Protons",
+      "wordCount": 2182,
+      "pageCount": 3,
+      "startPage": 110
+    },
+    {
+      "index": 34,
+      "title": "31. Operation Guzheng",
+      "wordCount": 5175,
+      "pageCount": 6,
+      "startPage": 113
+    },
+    {
+      "index": 35,
+      "title": "32. Trisolaris: The Listener",
+      "wordCount": 3100,
+      "pageCount": 4,
+      "startPage": 119
+    },
+    {
+      "index": 36,
+      "title": "33. Trisolaris: Sophon",
+      "wordCount": 8544,
+      "pageCount": 9,
+      "startPage": 123
+    },
+    {
+      "index": 37,
+      "title": "34. Bugs",
+      "wordCount": 1046,
+      "pageCount": 2,
+      "startPage": 132
+    },
+    {
+      "index": 38,
+      "title": "35. The Ruins",
+      "wordCount": 490,
+      "pageCount": 1,
+      "startPage": 134
+    },
+    {
+      "index": 39,
+      "title": "Author’s Postscript for the American Edition",
+      "wordCount": 1783,
+      "pageCount": 2,
+      "startPage": 135
+    },
+    {
+      "index": 40,
+      "title": "Translator’s Postscript",
+      "wordCount": 702,
+      "pageCount": 1,
+      "startPage": 137
+    },
+    {
+      "index": 41,
+      "title": "About the Author",
+      "wordCount": 55,
+      "pageCount": 1,
+      "startPage": 138
+    },
+    {
+      "index": 42,
+      "title": "About the Translator",
+      "wordCount": 34,
+      "pageCount": 1,
+      "startPage": 139
+    },
+    {
+      "index": 43,
+      "title": "Copyright",
+      "wordCount": 199,
+      "pageCount": 1,
+      "startPage": 140
+    },
+    {
+      "index": 44,
+      "title": "Chapter 44",
+      "wordCount": 65,
+      "pageCount": 1,
+      "startPage": 141
+    },
+    {
+      "index": 45,
+      "title": "Chapter 45",
+      "wordCount": 48,
+      "pageCount": 1,
+      "startPage": 142
+    },
+    {
+      "index": 46,
+      "title": "Chapter 46",
+      "wordCount": 49,
+      "pageCount": 1,
+      "startPage": 143
+    },
+    {
+      "index": 47,
+      "title": "Chapter 47",
+      "wordCount": 59,
+      "pageCount": 1,
+      "startPage": 144
+    },
+    {
+      "index": 48,
+      "title": "Chapter 48",
+      "wordCount": 42,
+      "pageCount": 1,
+      "startPage": 145
+    },
+    {
+      "index": 49,
+      "title": "Chapter 49",
+      "wordCount": 38,
+      "pageCount": 1,
+      "startPage": 146
+    },
+    {
+      "index": 50,
+      "title": "Chapter 50",
+      "wordCount": 43,
+      "pageCount": 1,
+      "startPage": 147
+    },
+    {
+      "index": 51,
+      "title": "Chapter 51",
+      "wordCount": 31,
+      "pageCount": 1,
+      "startPage": 148
+    },
+    {
+      "index": 52,
+      "title": "Chapter 52",
+      "wordCount": 51,
+      "pageCount": 1,
+      "startPage": 149
+    },
+    {
+      "index": 53,
+      "title": "Chapter 53",
+      "wordCount": 33,
+      "pageCount": 1,
+      "startPage": 150
+    },
+    {
+      "index": 54,
+      "title": "Chapter 54",
+      "wordCount": 34,
+      "pageCount": 1,
+      "startPage": 151
+    },
+    {
+      "index": 55,
+      "title": "Chapter 55",
+      "wordCount": 43,
+      "pageCount": 1,
+      "startPage": 152
+    },
+    {
+      "index": 56,
+      "title": "Chapter 56",
+      "wordCount": 95,
+      "pageCount": 1,
+      "startPage": 153
+    },
+    {
+      "index": 57,
+      "title": "Chapter 57",
+      "wordCount": 33,
+      "pageCount": 1,
+      "startPage": 154
+    },
+    {
+      "index": 58,
+      "title": "Chapter 58",
+      "wordCount": 60,
+      "pageCount": 1,
+      "startPage": 155
+    },
+    {
+      "index": 59,
+      "title": "Chapter 59",
+      "wordCount": 68,
+      "pageCount": 1,
+      "startPage": 156
+    },
+    {
+      "index": 60,
+      "title": "Chapter 60",
+      "wordCount": 57,
+      "pageCount": 1,
+      "startPage": 157
+    },
+    {
+      "index": 61,
+      "title": "Chapter 61",
+      "wordCount": 43,
+      "pageCount": 1,
+      "startPage": 158
+    },
+    {
+      "index": 62,
+      "title": "Chapter 62",
+      "wordCount": 70,
+      "pageCount": 1,
+      "startPage": 159
+    },
+    {
+      "index": 63,
+      "title": "Chapter 63",
+      "wordCount": 68,
+      "pageCount": 1,
+      "startPage": 160
+    },
+    {
+      "index": 64,
+      "title": "Chapter 64",
+      "wordCount": 53,
+      "pageCount": 1,
+      "startPage": 161
+    }
+  ]
+}

@@ -28,6 +28,24 @@
       "totalChapters": 65
     },
     {
+      "id": "house-of-leaves",
+      "title": "House of Leaves",
+      "author": "Mark Z. Danielewski",
+      "description": "",
+      "totalWords": 195141,
+      "totalPages": 196,
+      "totalChapters": 40
+    },
+    {
+      "id": "life-3-0-being-human-in-the-age-of-artificial-intelligence",
+      "title": "Life 3_0_ Being Human in the Age of Artificial Intelligence",
+      "author": "Tegmark, Max  & chenjin5.com",
+      "description": "",
+      "totalWords": 119986,
+      "totalPages": 120,
+      "totalChapters": 24
+    },
+    {
       "id": "piranesi",
       "title": "Piranesi",
       "author": "Susanna Clarke",
@@ -73,6 +91,15 @@
       "totalChapters": 37
     },
     {
+      "id": "the-hidden-life-of-trees",
+      "title": "The Hidden Life of Trees",
+      "author": "Peter Wohlleben",
+      "description": "",
+      "totalWords": 72059,
+      "totalPages": 73,
+      "totalChapters": 46
+    },
+    {
       "id": "the-hidden-life-of-trees-1-mysteries-of-nature",
       "title": "The Hidden Life of Trees_ 1 (Mysteries of Nature)",
       "author": "Peter Wohlleben",
@@ -98,6 +125,42 @@
       "totalWords": 97005,
       "totalPages": 98,
       "totalChapters": 20
+    },
+    {
+      "id": "the-society-of-the-spectacle",
+      "title": "The Society of the Spectacle",
+      "author": "Guy Debord",
+      "description": "'One should bear in mind when reading this book that it was written with the deliberate intention of doing harm to spectacular society' --Guy Debord. Originally published in France in 1968 The Society of the Spectacle is a brilliantly lucid analysis of the forms of social control and domination under modern capitalism. Since its publication it has had an enormous underground influence both on active revolutionaries and on radical cultural and political theory. Prescient in its condemnation of th",
+      "totalWords": 31105,
+      "totalPages": 32,
+      "totalChapters": 12
+    },
+    {
+      "id": "the-three-body-problem",
+      "title": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "description": "",
+      "totalWords": 118853,
+      "totalPages": 119,
+      "totalChapters": 64
+    },
+    {
+      "id": "the-unbearable-lightness-of-being",
+      "title": "The Unbearable Lightness of Being",
+      "author": "MILAN KUNDERA",
+      "description": "",
+      "totalWords": 85272,
+      "totalPages": 86,
+      "totalChapters": 18
+    },
+    {
+      "id": "tomorrow-and-tomorrow-and-tomorrow-a-novel",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow_ A novel",
+      "author": "Gabrielle Zevin",
+      "description": "",
+      "totalWords": 134403,
+      "totalPages": 135,
+      "totalChapters": 27
     },
     {
       "id": "a-court-of-mist-and-fury",
@@ -127,5 +190,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:41:15.016Z"
+  "updatedAt": "2026-04-08T02:50:23.823Z"
 }

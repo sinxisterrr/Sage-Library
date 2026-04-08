@@ -1,0 +1,334 @@
+{
+  "id": "the-hidden-life-of-trees",
+  "title": "The Hidden Life of Trees",
+  "author": "Peter Wohlleben",
+  "description": "",
+  "filename": "The Hidden Life of Trees -- Peter Wohlleben -- 2016 -- Greystone Books -- b7ece75a270ae9ef5862bfdc15f9e98b -- Anna’s Archive.epub",
+  "totalWords": 72059,
+  "totalPages": 73,
+  "totalChapters": 46,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Table of Contents",
+      "wordCount": 206,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Foreword",
+      "wordCount": 569,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Introduction to the English Edition",
+      "wordCount": 625,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Introduction",
+      "wordCount": 550,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "1: Friendships",
+      "wordCount": 1374,
+      "pageCount": 2,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "2: The Language of Trees",
+      "wordCount": 2125,
+      "pageCount": 3,
+      "startPage": 7
+    },
+    {
+      "index": 7,
+      "title": "3: Social Security",
+      "wordCount": 1257,
+      "pageCount": 2,
+      "startPage": 10
+    },
+    {
+      "index": 8,
+      "title": "4: Love",
+      "wordCount": 1542,
+      "pageCount": 2,
+      "startPage": 12
+    },
+    {
+      "index": 9,
+      "title": "5: The Tree Lottery",
+      "wordCount": 1453,
+      "pageCount": 2,
+      "startPage": 14
+    },
+    {
+      "index": 10,
+      "title": "6: Slowly Does It",
+      "wordCount": 1651,
+      "pageCount": 2,
+      "startPage": 16
+    },
+    {
+      "index": 11,
+      "title": "7: Forest Etiquette",
+      "wordCount": 1365,
+      "pageCount": 2,
+      "startPage": 18
+    },
+    {
+      "index": 12,
+      "title": "8: Tree School",
+      "wordCount": 1624,
+      "pageCount": 2,
+      "startPage": 20
+    },
+    {
+      "index": 13,
+      "title": "9: United We Stand, Divided We Fall",
+      "wordCount": 1747,
+      "pageCount": 2,
+      "startPage": 22
+    },
+    {
+      "index": 14,
+      "title": "10: The Mysteries of Moving Water",
+      "wordCount": 832,
+      "pageCount": 1,
+      "startPage": 24
+    },
+    {
+      "index": 15,
+      "title": "11: Trees Aging Gracefully",
+      "wordCount": 2057,
+      "pageCount": 3,
+      "startPage": 25
+    },
+    {
+      "index": 16,
+      "title": "12: Mighty Oak or Mighty Wimp?",
+      "wordCount": 1156,
+      "pageCount": 2,
+      "startPage": 28
+    },
+    {
+      "index": 17,
+      "title": "13: Specialists",
+      "wordCount": 1629,
+      "pageCount": 2,
+      "startPage": 30
+    },
+    {
+      "index": 18,
+      "title": "14: Tree or Not Tree?",
+      "wordCount": 1439,
+      "pageCount": 2,
+      "startPage": 32
+    },
+    {
+      "index": 19,
+      "title": "15: In the Realm of Darkness",
+      "wordCount": 2136,
+      "pageCount": 3,
+      "startPage": 34
+    },
+    {
+      "index": 20,
+      "title": "16: Carbon Dioxide Vacuums",
+      "wordCount": 1454,
+      "pageCount": 2,
+      "startPage": 37
+    },
+    {
+      "index": 21,
+      "title": "17: Woody Climate Control",
+      "wordCount": 1269,
+      "pageCount": 2,
+      "startPage": 39
+    },
+    {
+      "index": 22,
+      "title": "18: The Forest as Water Pump",
+      "wordCount": 2031,
+      "pageCount": 3,
+      "startPage": 41
+    },
+    {
+      "index": 23,
+      "title": "19: Yours or Mine?",
+      "wordCount": 3404,
+      "pageCount": 4,
+      "startPage": 44
+    },
+    {
+      "index": 24,
+      "title": "20: Community Housing Projects",
+      "wordCount": 1485,
+      "pageCount": 2,
+      "startPage": 48
+    },
+    {
+      "index": 25,
+      "title": "21: Mother Ships of Biodiversity",
+      "wordCount": 1261,
+      "pageCount": 2,
+      "startPage": 50
+    },
+    {
+      "index": 26,
+      "title": "22: Hibernation",
+      "wordCount": 2785,
+      "pageCount": 3,
+      "startPage": 52
+    },
+    {
+      "index": 27,
+      "title": "23: A Sense of Time",
+      "wordCount": 1065,
+      "pageCount": 2,
+      "startPage": 55
+    },
+    {
+      "index": 28,
+      "title": "24: A Question of Character",
+      "wordCount": 1091,
+      "pageCount": 2,
+      "startPage": 57
+    },
+    {
+      "index": 29,
+      "title": "25: The Sick Tree",
+      "wordCount": 1783,
+      "pageCount": 2,
+      "startPage": 59
+    },
+    {
+      "index": 30,
+      "title": "26: Let There Be Light",
+      "wordCount": 1944,
+      "pageCount": 2,
+      "startPage": 61
+    },
+    {
+      "index": 31,
+      "title": "27: Street Kids",
+      "wordCount": 2850,
+      "pageCount": 3,
+      "startPage": 63
+    },
+    {
+      "index": 32,
+      "title": "28: Burnout",
+      "wordCount": 1621,
+      "pageCount": 2,
+      "startPage": 66
+    },
+    {
+      "index": 33,
+      "title": "29: Destination North!",
+      "wordCount": 2431,
+      "pageCount": 3,
+      "startPage": 68
+    },
+    {
+      "index": 34,
+      "title": "30: Tough Customers",
+      "wordCount": 1083,
+      "pageCount": 2,
+      "startPage": 71
+    },
+    {
+      "index": 35,
+      "title": "31: Turbulent Times",
+      "wordCount": 2769,
+      "pageCount": 3,
+      "startPage": 73
+    },
+    {
+      "index": 36,
+      "title": "32: Immigrants",
+      "wordCount": 2534,
+      "pageCount": 3,
+      "startPage": 76
+    },
+    {
+      "index": 37,
+      "title": "33: Healthy Forest Air",
+      "wordCount": 1689,
+      "pageCount": 2,
+      "startPage": 79
+    },
+    {
+      "index": 38,
+      "title": "34: Why Is the Forest Green?",
+      "wordCount": 1544,
+      "pageCount": 2,
+      "startPage": 81
+    },
+    {
+      "index": 39,
+      "title": "35: Set Free",
+      "wordCount": 1976,
+      "pageCount": 2,
+      "startPage": 83
+    },
+    {
+      "index": 40,
+      "title": "36: More Than Just a Commodity",
+      "wordCount": 1270,
+      "pageCount": 2,
+      "startPage": 85
+    },
+    {
+      "index": 41,
+      "title": "Note From a Forest Scientist",
+      "wordCount": 746,
+      "pageCount": 1,
+      "startPage": 87
+    },
+    {
+      "index": 42,
+      "title": "Acknowledgments",
+      "wordCount": 151,
+      "pageCount": 1,
+      "startPage": 88
+    },
+    {
+      "index": 43,
+      "title": "Notes",
+      "wordCount": 1983,
+      "pageCount": 2,
+      "startPage": 89
+    },
+    {
+      "index": 44,
+      "title": "Index",
+      "wordCount": 4222,
+      "pageCount": 5,
+      "startPage": 91
+    },
+    {
+      "index": 45,
+      "title": "Chapter 45",
+      "wordCount": 81,
+      "pageCount": 1,
+      "startPage": 96
+    },
+    {
+      "index": 46,
+      "title": "Chapter 46",
+      "wordCount": 200,
+      "pageCount": 1,
+      "startPage": 97
+    }
+  ]
+}
