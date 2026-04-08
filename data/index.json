@@ -28,6 +28,15 @@
       "totalChapters": 65
     },
     {
+      "id": "his-dark-materials-the-complete-trilogy",
+      "title": "His Dark Materials: The Complete Trilogy",
+      "author": "Philip Pullman",
+      "description": "",
+      "totalWords": 380054,
+      "totalPages": 381,
+      "totalChapters": 90
+    },
+    {
       "id": "house-of-leaves",
       "title": "House of Leaves",
       "author": "Mark Z. Danielewski",
@@ -55,13 +64,13 @@
       "totalChapters": 24
     },
     {
-      "id": "piranesi",
-      "title": "Piranesi",
-      "author": "Susanna Clarke",
+      "id": "discworld-04-mort",
+      "title": "Discworld 04 - Mort",
+      "author": "Pratchett, Terry",
       "description": "",
-      "totalWords": 66613,
-      "totalPages": 67,
-      "totalChapters": 14
+      "totalWords": 73092,
+      "totalPages": 74,
+      "totalChapters": 8
     },
     {
       "id": "project-hail-mary",
@@ -71,6 +80,15 @@
       "totalWords": 149588,
       "totalPages": 150,
       "totalChapters": 30
+    },
+    {
+      "id": "slaughterhouse-five-publisher-dell",
+      "title": "Slaughterhouse-Five Publisher: Dell",
+      "author": "Kurt Vonnegut",
+      "description": "Kurt Vonnegut **",
+      "totalWords": 53848,
+      "totalPages": 54,
+      "totalChapters": 12
     },
     {
       "id": "the-alignment-problem",
@@ -136,6 +154,15 @@
       "totalChapters": 20
     },
     {
+      "id": "the-snow-queen",
+      "title": "The Snow Queen",
+      "author": "Joan D. Vinge",
+      "description": "",
+      "totalWords": 185691,
+      "totalPages": 186,
+      "totalChapters": 7
+    },
+    {
       "id": "the-society-of-the-spectacle",
       "title": "The Society of the Spectacle",
       "author": "Guy Debord",
@@ -143,6 +170,15 @@
       "totalWords": 31105,
       "totalPages": 32,
       "totalChapters": 12
+    },
+    {
+      "id": "the-summer-queen",
+      "title": "The Summer Queen",
+      "author": "Joan D. Vinge",
+      "description": "Sequel To The Hugo Award-Winning Bestseller The Snow Queen The Summer Queenis the extraordinary sequel to one of science fiction's most celebrated novels, The Snow Queen. Set in a fully realized universe of wonders, this spectacular space epic, itself a finalist for the Hugo Award, is one of the most remarkable novels in the field. A story that spans millennia, from the ruins of an ancient interstellar empire to the planets of the Hegemony that rules human space, The Summer Queenis the multi-lay",
+      "totalWords": 378316,
+      "totalPages": 379,
+      "totalChapters": 85
     },
     {
       "id": "the-three-body-problem",
@@ -208,5 +244,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:56:17.544Z"
+  "updatedAt": "2026-04-08T18:32:45.679Z"
 }
