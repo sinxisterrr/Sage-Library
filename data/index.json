@@ -64,15 +64,6 @@
       "totalChapters": 24
     },
     {
-      "id": "nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering-third-edition",
-      "title": "Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering: Third Edition",
-      "author": "Steven H. Strogatz",
-      "description": "",
-      "totalWords": 2,
-      "totalPages": 1,
-      "totalChapters": 1
-    },
-    {
       "id": "piranesi",
       "title": "Piranesi",
       "author": "Susanna Clarke",
@@ -235,5 +226,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-10T14:51:34.024Z"
+  "updatedAt": "2026-04-10T15:53:53.894Z"
 }
