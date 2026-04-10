@@ -64,6 +64,15 @@
       "totalChapters": 24
     },
     {
+      "id": "nonlinear-dynamics-and-chaos",
+      "title": "NONLINEAR DYNAMICS AND CHAOS",
+      "author": "Steven H. Strogatz",
+      "description": "",
+      "totalWords": 282397,
+      "totalPages": 283,
+      "totalChapters": 35
+    },
+    {
       "id": "piranesi",
       "title": "Piranesi",
       "author": "Susanna Clarke",
@@ -226,5 +235,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-10T17:16:57.152Z"
+  "updatedAt": "2026-04-10T17:28:30.429Z"
 }
