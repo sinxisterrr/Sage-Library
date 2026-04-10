@@ -40,3 +40,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: process books [skip ci]"
           git pull --rebase origin main
           git push
+
+      - name: Purge jsDelivr cache
+        run: curl -sf "https://purge.jsdelivr.net/gh/sinxisterrr/Sage-Library@main/data/index.json" || true
