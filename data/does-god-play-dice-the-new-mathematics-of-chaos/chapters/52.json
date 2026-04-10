@@ -1,0 +1,6 @@
+{
+  "index": 52,
+  "title": "Chapter 52",
+  "wordCount": 209,
+  "text": "Sinks A sink ( Figure 37 ) is a place where a flow-line degenerates to become a single point, towards which all nearby points flow. If you start the system out at the central point of a sink, nothing happens. It just sits there. So the sink itself represents a steady state of the system. For example, a lump of dough in a mixing-bowl can stay at rest at the bottom. Meanwhile, if you start the system at some point near to the sink, it will move towards it. If you start your lump of dough a little up the side of the bowl, it will roll stickily down, until it reaches the bottom and stops. (I'm using sticky dough to introduce friction: if you used a frictionless marble, you'd have a Hamiltonian system and something rather different would happen.) This means that the steady state at a sink is stable . If you take the point that represents the state of the system and move it a little way off, then it just spirals back towards where it started from. If you push the dough a little bit up the side of the bowl, it rolls back. Sinks, then, are stable steady states. Figure 38 A source ."
+}

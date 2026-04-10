@@ -10,6 +10,15 @@
       "totalChapters": 24
     },
     {
+      "id": "does-god-play-dice-the-new-mathematics-of-chaos",
+      "title": "Does God Play Dice?: The New Mathematics of Chaos",
+      "author": "Ian Stewart",
+      "description": "Since the dramatic discovery of the mathematical concept of chaos in 1989, the controversy of its contents has settled down. This revised edition of Does God Play Dice? takes a fresh look at its achievements and potential. With a new preface and three completely new chapters, it includes the latest practical applications of chaos theory, such as developing intelligent heart pacemakers. All this provides a fascinating new answer to Einstien's question which provided the title of this book.",
+      "totalWords": 140963,
+      "totalPages": 141,
+      "totalChapters": 198
+    },
+    {
       "id": "dune",
       "title": "Dune",
       "author": "Frank Herbert",
@@ -98,6 +107,15 @@
       "totalWords": 183212,
       "totalPages": 184,
       "totalChapters": 37
+    },
+    {
+      "id": "the-essence-of-chaos-the-jessie-and-john-danz-lecture",
+      "title": "The Essence of Chaos (The Jessie and John Danz Lecture",
+      "author": "Edward N. Lorenz",
+      "description": "",
+      "totalWords": 69901,
+      "totalPages": 70,
+      "totalChapters": 14
     },
     {
       "id": "the-hidden-life-of-trees",
@@ -208,5 +226,5 @@
       "totalChapters": 13
     }
   ],
-  "updatedAt": "2026-04-08T02:56:17.544Z"
+  "updatedAt": "2026-04-10T14:13:33.934Z"
 }
