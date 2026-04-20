@@ -1,0 +1,642 @@
+{
+  "id": "his-dark-materials-the-complete-trilogy",
+  "title": "His Dark Materials: The Complete Trilogy",
+  "author": "Philip Pullman",
+  "description": "",
+  "filename": "His Dark Materials_ The Complete Trilogy -- Philip Pullman -- RHCP Digital -- 96ce2e3ece6aba2483478999834cd116 -- Anna’s Archive.epub",
+  "totalWords": 380054,
+  "totalPages": 381,
+  "totalChapters": 90,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Contents",
+      "wordCount": 31,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "About the Book",
+      "wordCount": 263,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Contents",
+      "wordCount": 91,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Epigraph",
+      "wordCount": 79,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "1 The Decanter of Tokay",
+      "wordCount": 4233,
+      "pageCount": 5,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "2 The Idea of North",
+      "wordCount": 4617,
+      "pageCount": 5,
+      "startPage": 10
+    },
+    {
+      "index": 7,
+      "title": "3 Lyra’s Jordan",
+      "wordCount": 9713,
+      "pageCount": 10,
+      "startPage": 15
+    },
+    {
+      "index": 8,
+      "title": "4 The Alethiometer",
+      "wordCount": 4307,
+      "pageCount": 5,
+      "startPage": 25
+    },
+    {
+      "index": 9,
+      "title": "5 The Cocktail Party",
+      "wordCount": 4977,
+      "pageCount": 5,
+      "startPage": 30
+    },
+    {
+      "index": 10,
+      "title": "6 The Throwing-Nets",
+      "wordCount": 3624,
+      "pageCount": 4,
+      "startPage": 35
+    },
+    {
+      "index": 11,
+      "title": "7 John Faa",
+      "wordCount": 6352,
+      "pageCount": 7,
+      "startPage": 39
+    },
+    {
+      "index": 12,
+      "title": "8 Frustration",
+      "wordCount": 3664,
+      "pageCount": 4,
+      "startPage": 46
+    },
+    {
+      "index": 13,
+      "title": "9 The Spies",
+      "wordCount": 5689,
+      "pageCount": 6,
+      "startPage": 50
+    },
+    {
+      "index": 14,
+      "title": "10 The Consul and the Bear",
+      "wordCount": 5937,
+      "pageCount": 6,
+      "startPage": 56
+    },
+    {
+      "index": 15,
+      "title": "11 Armour",
+      "wordCount": 6613,
+      "pageCount": 7,
+      "startPage": 62
+    },
+    {
+      "index": 16,
+      "title": "12 The Lost Boy",
+      "wordCount": 3092,
+      "pageCount": 4,
+      "startPage": 69
+    },
+    {
+      "index": 17,
+      "title": "13 Fencing",
+      "wordCount": 5115,
+      "pageCount": 6,
+      "startPage": 73
+    },
+    {
+      "index": 18,
+      "title": "14 Bolvangar Lights",
+      "wordCount": 4887,
+      "pageCount": 5,
+      "startPage": 79
+    },
+    {
+      "index": 19,
+      "title": "15 The Dæmon-Cages",
+      "wordCount": 5063,
+      "pageCount": 6,
+      "startPage": 84
+    },
+    {
+      "index": 20,
+      "title": "16 The Silver Guillotine",
+      "wordCount": 4293,
+      "pageCount": 5,
+      "startPage": 90
+    },
+    {
+      "index": 21,
+      "title": "17 The Witches",
+      "wordCount": 7472,
+      "pageCount": 8,
+      "startPage": 95
+    },
+    {
+      "index": 22,
+      "title": "18 Fog and Ice",
+      "wordCount": 5688,
+      "pageCount": 6,
+      "startPage": 103
+    },
+    {
+      "index": 23,
+      "title": "19 Captivity",
+      "wordCount": 5626,
+      "pageCount": 6,
+      "startPage": 109
+    },
+    {
+      "index": 24,
+      "title": "20 À Outrance",
+      "wordCount": 5375,
+      "pageCount": 6,
+      "startPage": 115
+    },
+    {
+      "index": 25,
+      "title": "21 Lord Asriel’s Welcome",
+      "wordCount": 5352,
+      "pageCount": 6,
+      "startPage": 121
+    },
+    {
+      "index": 26,
+      "title": "22 Betrayal",
+      "wordCount": 2966,
+      "pageCount": 3,
+      "startPage": 127
+    },
+    {
+      "index": 27,
+      "title": "23 The Bridge to the Stars",
+      "wordCount": 2940,
+      "pageCount": 3,
+      "startPage": 130
+    },
+    {
+      "index": 28,
+      "title": "Appendix",
+      "wordCount": 123,
+      "pageCount": 1,
+      "startPage": 133
+    },
+    {
+      "index": 29,
+      "title": "Contents",
+      "wordCount": 53,
+      "pageCount": 1,
+      "startPage": 134
+    },
+    {
+      "index": 30,
+      "title": "1 The Cat and the Hornbeam Trees",
+      "wordCount": 8712,
+      "pageCount": 9,
+      "startPage": 135
+    },
+    {
+      "index": 31,
+      "title": "2 Among the Witches",
+      "wordCount": 8000,
+      "pageCount": 8,
+      "startPage": 144
+    },
+    {
+      "index": 32,
+      "title": "3 A Children’s World",
+      "wordCount": 4745,
+      "pageCount": 5,
+      "startPage": 152
+    },
+    {
+      "index": 33,
+      "title": "4 Trepanning",
+      "wordCount": 9439,
+      "pageCount": 10,
+      "startPage": 157
+    },
+    {
+      "index": 34,
+      "title": "5 Airmail Paper",
+      "wordCount": 4389,
+      "pageCount": 5,
+      "startPage": 167
+    },
+    {
+      "index": 35,
+      "title": "6 Lighted Fliers",
+      "wordCount": 8811,
+      "pageCount": 9,
+      "startPage": 172
+    },
+    {
+      "index": 36,
+      "title": "7 The Rolls Royce",
+      "wordCount": 6559,
+      "pageCount": 7,
+      "startPage": 181
+    },
+    {
+      "index": 37,
+      "title": "8 The Tower of the Angels",
+      "wordCount": 7750,
+      "pageCount": 8,
+      "startPage": 188
+    },
+    {
+      "index": 38,
+      "title": "9 Theft",
+      "wordCount": 5180,
+      "pageCount": 6,
+      "startPage": 196
+    },
+    {
+      "index": 39,
+      "title": "10 The Shaman",
+      "wordCount": 4761,
+      "pageCount": 5,
+      "startPage": 202
+    },
+    {
+      "index": 40,
+      "title": "11 The Belvedere",
+      "wordCount": 4571,
+      "pageCount": 5,
+      "startPage": 207
+    },
+    {
+      "index": 41,
+      "title": "12 Screen Language",
+      "wordCount": 4759,
+      "pageCount": 5,
+      "startPage": 212
+    },
+    {
+      "index": 42,
+      "title": "13 Æsahættr",
+      "wordCount": 7226,
+      "pageCount": 8,
+      "startPage": 217
+    },
+    {
+      "index": 43,
+      "title": "14 Alamo Gulch",
+      "wordCount": 8820,
+      "pageCount": 9,
+      "startPage": 225
+    },
+    {
+      "index": 44,
+      "title": "15 Bloodmoss",
+      "wordCount": 6436,
+      "pageCount": 7,
+      "startPage": 234
+    },
+    {
+      "index": 45,
+      "title": "Appendix",
+      "wordCount": 163,
+      "pageCount": 1,
+      "startPage": 241
+    },
+    {
+      "index": 46,
+      "title": "Contents",
+      "wordCount": 137,
+      "pageCount": 1,
+      "startPage": 242
+    },
+    {
+      "index": 47,
+      "title": "Epigraph",
+      "wordCount": 143,
+      "pageCount": 1,
+      "startPage": 243
+    },
+    {
+      "index": 48,
+      "title": "1 The Enchanted Sleeper",
+      "wordCount": 2504,
+      "pageCount": 3,
+      "startPage": 244
+    },
+    {
+      "index": 49,
+      "title": "2 Balthamos and Baruch",
+      "wordCount": 7949,
+      "pageCount": 8,
+      "startPage": 247
+    },
+    {
+      "index": 50,
+      "title": "3 Scavengers",
+      "wordCount": 2266,
+      "pageCount": 3,
+      "startPage": 255
+    },
+    {
+      "index": 51,
+      "title": "4 Ama and the Bats",
+      "wordCount": 2568,
+      "pageCount": 3,
+      "startPage": 258
+    },
+    {
+      "index": 52,
+      "title": "5 The Adamant Tower",
+      "wordCount": 3269,
+      "pageCount": 4,
+      "startPage": 261
+    },
+    {
+      "index": 53,
+      "title": "6 Pre-emptive Absolution",
+      "wordCount": 3637,
+      "pageCount": 4,
+      "startPage": 265
+    },
+    {
+      "index": 54,
+      "title": "7 Mary, Alone",
+      "wordCount": 4012,
+      "pageCount": 5,
+      "startPage": 269
+    },
+    {
+      "index": 55,
+      "title": "8 Vodka",
+      "wordCount": 5298,
+      "pageCount": 6,
+      "startPage": 274
+    },
+    {
+      "index": 56,
+      "title": "9 Up-river",
+      "wordCount": 3185,
+      "pageCount": 4,
+      "startPage": 280
+    },
+    {
+      "index": 57,
+      "title": "10 Wheels",
+      "wordCount": 4102,
+      "pageCount": 5,
+      "startPage": 284
+    },
+    {
+      "index": 58,
+      "title": "11 The Dragonflies",
+      "wordCount": 4565,
+      "pageCount": 5,
+      "startPage": 289
+    },
+    {
+      "index": 59,
+      "title": "12 The Break",
+      "wordCount": 3305,
+      "pageCount": 4,
+      "startPage": 294
+    },
+    {
+      "index": 60,
+      "title": "13 Tialys and Salmakia",
+      "wordCount": 3855,
+      "pageCount": 4,
+      "startPage": 298
+    },
+    {
+      "index": 61,
+      "title": "14 Know What It Is",
+      "wordCount": 4502,
+      "pageCount": 5,
+      "startPage": 302
+    },
+    {
+      "index": 62,
+      "title": "15 The Forge",
+      "wordCount": 4265,
+      "pageCount": 5,
+      "startPage": 307
+    },
+    {
+      "index": 63,
+      "title": "16 The Intention Craft",
+      "wordCount": 6881,
+      "pageCount": 7,
+      "startPage": 312
+    },
+    {
+      "index": 64,
+      "title": "17 Oil and Lacquer",
+      "wordCount": 4895,
+      "pageCount": 5,
+      "startPage": 319
+    },
+    {
+      "index": 65,
+      "title": "18 The Suburbs of the Dead",
+      "wordCount": 5280,
+      "pageCount": 6,
+      "startPage": 324
+    },
+    {
+      "index": 66,
+      "title": "19 Lyra and her Death",
+      "wordCount": 5461,
+      "pageCount": 6,
+      "startPage": 330
+    },
+    {
+      "index": 67,
+      "title": "20 Climbing",
+      "wordCount": 2161,
+      "pageCount": 3,
+      "startPage": 336
+    },
+    {
+      "index": 68,
+      "title": "21 The Harpies",
+      "wordCount": 5438,
+      "pageCount": 6,
+      "startPage": 339
+    },
+    {
+      "index": 69,
+      "title": "22 The Whisperers",
+      "wordCount": 3602,
+      "pageCount": 4,
+      "startPage": 345
+    },
+    {
+      "index": 70,
+      "title": "23 No Way Out",
+      "wordCount": 5489,
+      "pageCount": 6,
+      "startPage": 349
+    },
+    {
+      "index": 71,
+      "title": "24 Mrs Coulter in Geneva",
+      "wordCount": 4481,
+      "pageCount": 5,
+      "startPage": 355
+    },
+    {
+      "index": 72,
+      "title": "25 Saint-Jean-les-Eaux",
+      "wordCount": 4413,
+      "pageCount": 5,
+      "startPage": 360
+    },
+    {
+      "index": 73,
+      "title": "26 The Abyss",
+      "wordCount": 4030,
+      "pageCount": 5,
+      "startPage": 365
+    },
+    {
+      "index": 74,
+      "title": "27 The Platform",
+      "wordCount": 1930,
+      "pageCount": 2,
+      "startPage": 370
+    },
+    {
+      "index": 75,
+      "title": "28 Midnight",
+      "wordCount": 3736,
+      "pageCount": 4,
+      "startPage": 372
+    },
+    {
+      "index": 76,
+      "title": "29 The Battle on the Plain",
+      "wordCount": 3010,
+      "pageCount": 4,
+      "startPage": 376
+    },
+    {
+      "index": 77,
+      "title": "30 The Clouded Mountain",
+      "wordCount": 2741,
+      "pageCount": 3,
+      "startPage": 380
+    },
+    {
+      "index": 78,
+      "title": "31 Authority’s End",
+      "wordCount": 5074,
+      "pageCount": 6,
+      "startPage": 383
+    },
+    {
+      "index": 79,
+      "title": "32 Morning",
+      "wordCount": 4630,
+      "pageCount": 5,
+      "startPage": 389
+    },
+    {
+      "index": 80,
+      "title": "33 Marzipan",
+      "wordCount": 4918,
+      "pageCount": 5,
+      "startPage": 394
+    },
+    {
+      "index": 81,
+      "title": "34 There Is Now",
+      "wordCount": 2143,
+      "pageCount": 3,
+      "startPage": 399
+    },
+    {
+      "index": 82,
+      "title": "35 Over the Hills and Far Away",
+      "wordCount": 5250,
+      "pageCount": 6,
+      "startPage": 402
+    },
+    {
+      "index": 83,
+      "title": "36 The Broken Arrow",
+      "wordCount": 3025,
+      "pageCount": 4,
+      "startPage": 408
+    },
+    {
+      "index": 84,
+      "title": "37 The Dunes",
+      "wordCount": 5996,
+      "pageCount": 6,
+      "startPage": 412
+    },
+    {
+      "index": 85,
+      "title": "38 The Botanic Garden",
+      "wordCount": 6293,
+      "pageCount": 7,
+      "startPage": 418
+    },
+    {
+      "index": 86,
+      "title": "Acknowledgements",
+      "wordCount": 394,
+      "pageCount": 1,
+      "startPage": 425
+    },
+    {
+      "index": 87,
+      "title": "About the Author",
+      "wordCount": 71,
+      "pageCount": 1,
+      "startPage": 426
+    },
+    {
+      "index": 88,
+      "title": "Also by Philip Pullman",
+      "wordCount": 127,
+      "pageCount": 1,
+      "startPage": 427
+    },
+    {
+      "index": 89,
+      "title": "Praise for the His Dark Materials trilogy",
+      "wordCount": 116,
+      "pageCount": 1,
+      "startPage": 428
+    },
+    {
+      "index": 90,
+      "title": "Copyright",
+      "wordCount": 351,
+      "pageCount": 1,
+      "startPage": 429
+    }
+  ]
+}

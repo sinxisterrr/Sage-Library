@@ -1,0 +1,96 @@
+{
+  "id": "slaughterhouse-five-publisher-dell",
+  "title": "Slaughterhouse-Five Publisher: Dell",
+  "author": "Kurt Vonnegut",
+  "description": "Kurt Vonnegut **",
+  "filename": "Slaughterhouse-Five Publisher_ Dell -- Vonnegut, Kurt -- f43f6af4948d3ba53f005ed1bf9ed7d2 -- Anna’s Archive.epub",
+  "totalWords": 53848,
+  "totalPages": 54,
+  "totalChapters": 12,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Chapter 1",
+      "wordCount": 102,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Chapter 2",
+      "wordCount": 5594,
+      "pageCount": 6,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Chapter 3",
+      "wordCount": 7745,
+      "pageCount": 8,
+      "startPage": 8
+    },
+    {
+      "index": 4,
+      "title": "Chapter 4",
+      "wordCount": 4872,
+      "pageCount": 5,
+      "startPage": 16
+    },
+    {
+      "index": 5,
+      "title": "Chapter 5",
+      "wordCount": 3708,
+      "pageCount": 4,
+      "startPage": 21
+    },
+    {
+      "index": 6,
+      "title": "Chapter 6",
+      "wordCount": 9476,
+      "pageCount": 10,
+      "startPage": 25
+    },
+    {
+      "index": 7,
+      "title": "Chapter 7",
+      "wordCount": 2643,
+      "pageCount": 3,
+      "startPage": 35
+    },
+    {
+      "index": 8,
+      "title": "Chapter 8",
+      "wordCount": 4688,
+      "pageCount": 5,
+      "startPage": 38
+    },
+    {
+      "index": 9,
+      "title": "Chapter 9",
+      "wordCount": 1702,
+      "pageCount": 2,
+      "startPage": 43
+    },
+    {
+      "index": 10,
+      "title": "Chapter 10",
+      "wordCount": 5178,
+      "pageCount": 6,
+      "startPage": 45
+    },
+    {
+      "index": 11,
+      "title": "Chapter 11",
+      "wordCount": 6869,
+      "pageCount": 7,
+      "startPage": 51
+    },
+    {
+      "index": 12,
+      "title": "Chapter 12",
+      "wordCount": 1271,
+      "pageCount": 2,
+      "startPage": 58
+    }
+  ]
+}

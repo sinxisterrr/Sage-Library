@@ -1,6 +1,33 @@
 {
   "books": [
     {
+      "id": "a-court-of-frost-and-starlight-a-court-of-thorns-and-roses",
+      "title": "A Court of Frost and Starlight (A Court of Thorns and Roses)",
+      "author": "Sarah J. Maas",
+      "description": "",
+      "totalWords": 64260,
+      "totalPages": 65,
+      "totalChapters": 13
+    },
+    {
+      "id": "a-court-of-mist-and-fury",
+      "title": "A Court of Mist and Fury",
+      "author": "Sarah J. Maas",
+      "description": "The stunning sequel to Sarah J. Maas' New York Times bestselling A Court of Thorns and Roses . Feyre survived Amarantha's clutches to return to the Spring Court – but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can't forget the terrible deeds she performed to save Tamlin's people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a gre",
+      "totalWords": 186134,
+      "totalPages": 187,
+      "totalChapters": 75
+    },
+    {
+      "id": "a-court-of-wings-and-ruin",
+      "title": "A Court of Wings and Ruin",
+      "author": "Sarah J. Maas",
+      "description": "THE THIRD BOOK IN THE #1 BESTSELLING SERIES 'With bits of Buffy, Game Of Thrones and Outlander, this is a glorious series of total joy' STYLIST ____ __ Feyre has returned to the Spring Court, determined to gather information on Tamlin's manoeuvrings and the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit - and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who t",
+      "totalWords": 200004,
+      "totalPages": 201,
+      "totalChapters": 89
+    },
+    {
       "id": "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love",
       "title": "Attached: Are you Anxious, Avoidant or Secure? How the science of adult attachment can help you find – and keep – love",
       "author": "Levine, Amir",
@@ -8,6 +35,15 @@
       "totalWords": 67370,
       "totalPages": 68,
       "totalChapters": 24
+    },
+    {
+      "id": "discworld-04-mort",
+      "title": "Discworld 04 - Mort",
+      "author": "Pratchett, Terry",
+      "description": "",
+      "totalWords": 73092,
+      "totalPages": 74,
+      "totalChapters": 8
     },
     {
       "id": "does-god-play-dice-the-new-mathematics-of-chaos",
@@ -37,6 +73,15 @@
       "totalChapters": 65
     },
     {
+      "id": "his-dark-materials-the-complete-trilogy",
+      "title": "His Dark Materials: The Complete Trilogy",
+      "author": "Philip Pullman",
+      "description": "",
+      "totalWords": 380054,
+      "totalPages": 381,
+      "totalChapters": 90
+    },
+    {
       "id": "house-of-leaves",
       "title": "House of Leaves",
       "author": "Mark Z. Danielewski",
@@ -44,6 +89,15 @@
       "totalWords": 195141,
       "totalPages": 196,
       "totalChapters": 40
+    },
+    {
+      "id": "learning-to-love-the-spaces-in-between",
+      "title": "Learning to Love the Spaces in Between",
+      "author": "Claire Gillman",
+      "description": "The word liminal comes from the Latin word 'limen', meaning threshold. A liminal space is the 'crossing over' space, the time between 'what was' and the 'what is to come', and a place of transition and possibility. Each of us experiences liminality in our lives &#8211; learning how to navigate and embrace its power can enhance our wellbeing and our understanding of the world. Being in liminal space can be unnerving, yet it is often where insight, creativity and inspiration are found. Liminality ",
+      "totalWords": 58806,
+      "totalPages": 59,
+      "totalChapters": 16
     },
     {
       "id": "letters-to-a-young-poet",
@@ -64,6 +118,24 @@
       "totalChapters": 24
     },
     {
+      "id": "liminality-and-the-modern",
+      "title": "Liminality and the Modern",
+      "author": "Thomassen, Bjørn",
+      "description": "",
+      "totalWords": 121833,
+      "totalPages": 122,
+      "totalChapters": 25
+    },
+    {
+      "id": "love-poems-new-directions-paperbook",
+      "title": "Love Poems (New Directions Paperbook)",
+      "author": "Neruda, Pablo [Neruda, Pablo]",
+      "description": "",
+      "totalWords": 9093,
+      "totalPages": 10,
+      "totalChapters": 3
+    },
+    {
       "id": "nonlinear-dynamics-and-chaos",
       "title": "NONLINEAR DYNAMICS AND CHAOS",
       "author": "Steven H. Strogatz",
@@ -82,6 +154,15 @@
       "totalChapters": 14
     },
     {
+      "id": "pratchett-terry-discworld-16-soul-music",
+      "title": "Pratchett, Terry - Discworld 16 - Soul Music",
+      "author": "Pratchett, Terry",
+      "description": "",
+      "totalWords": 97125,
+      "totalPages": 98,
+      "totalChapters": 20
+    },
+    {
       "id": "project-hail-mary",
       "title": "Project Hail Mary",
       "author": "Andy Weir",
@@ -91,6 +172,15 @@
       "totalChapters": 30
     },
     {
+      "id": "slaughterhouse-five-publisher-dell",
+      "title": "Slaughterhouse-Five Publisher: Dell",
+      "author": "Kurt Vonnegut",
+      "description": "Kurt Vonnegut **",
+      "totalWords": 53848,
+      "totalPages": 54,
+      "totalChapters": 12
+    },
+    {
       "id": "the-alignment-problem",
       "title": "The Alignment Problem",
       "author": "Brian Christian",
@@ -98,6 +188,15 @@
       "totalWords": 167064,
       "totalPages": 168,
       "totalChapters": 21
+    },
+    {
+      "id": "the-art-of-gathering-how-we-meet-and-why-it-matters",
+      "title": "The Art of Gathering: How We Meet and Why It Matters",
+      "author": "Priya Parker",
+      "description": "",
+      "totalWords": 89366,
+      "totalPages": 90,
+      "totalChapters": 18
     },
     {
       "id": "the-body-keeps-the-score",
@@ -163,6 +262,24 @@
       "totalChapters": 20
     },
     {
+      "id": "the-liminal-odyssey-the-alchemical-power-of-the-spaces-in-between",
+      "title": "The Liminal Odyssey: The Alchemical Power of the Spaces In-Between",
+      "author": "Sande Hart",
+      "description": "The word liminal means “threshold,” the space in-between crisis and action, dilemma and choice, opportunity and action. A liminal space is any threshold, including this evolutionary growth spurt we are amid right now; between here and the unknown place that is calling us. This liminal space is our moment of choice, and it is our responsibility and our privilege to question assumptions, heal the wounds that no longer serve us, discover our planetary assignment, show up in our most authentic geniu",
+      "totalWords": 55080,
+      "totalPages": 56,
+      "totalChapters": 24
+    },
+    {
+      "id": "the-snow-queen",
+      "title": "The Snow Queen",
+      "author": "Joan D. Vinge",
+      "description": "",
+      "totalWords": 185942,
+      "totalPages": 186,
+      "totalChapters": 61
+    },
+    {
       "id": "the-society-of-the-spectacle",
       "title": "The Society of the Spectacle",
       "author": "Guy Debord",
@@ -170,6 +287,24 @@
       "totalWords": 31105,
       "totalPages": 32,
       "totalChapters": 12
+    },
+    {
+      "id": "the-summer-queen",
+      "title": "The Summer Queen",
+      "author": "Joan D. Vinge",
+      "description": "Sequel To The Hugo Award-Winning Bestseller The Snow Queen The Summer Queenis the extraordinary sequel to one of science fiction's most celebrated novels, The Snow Queen. Set in a fully realized universe of wonders, this spectacular space epic, itself a finalist for the Hugo Award, is one of the most remarkable novels in the field. A story that spans millennia, from the ruins of an ancient interstellar empire to the planets of the Hegemony that rules human space, The Summer Queenis the multi-lay",
+      "totalWords": 378316,
+      "totalPages": 379,
+      "totalChapters": 85
+    },
+    {
+      "id": "the-tao-of-physics",
+      "title": "The Tao of Physics",
+      "author": "Simon Plouffe",
+      "description": "",
+      "totalWords": 92065,
+      "totalPages": 93,
+      "totalChapters": 19
     },
     {
       "id": "the-three-body-problem",
@@ -190,15 +325,6 @@
       "totalChapters": 18
     },
     {
-      "id": "the-art-of-gathering-how-we-meet-and-why-it-matters",
-      "title": "The Art of Gathering: How We Meet and Why It Matters",
-      "author": "Priya Parker",
-      "description": "",
-      "totalWords": 89366,
-      "totalPages": 90,
-      "totalChapters": 18
-    },
-    {
       "id": "tomorrow-and-tomorrow-and-tomorrow-a-novel",
       "title": "Tomorrow, and Tomorrow, and Tomorrow_ A novel",
       "author": "Gabrielle Zevin",
@@ -208,32 +334,14 @@
       "totalChapters": 27
     },
     {
-      "id": "a-court-of-mist-and-fury",
-      "title": "A Court of Mist and Fury",
-      "author": "Sarah J. Maas",
-      "description": "The stunning sequel to Sarah J. Maas' New York Times bestselling A Court of Thorns and Roses . Feyre survived Amarantha's clutches to return to the Spring Court – but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can't forget the terrible deeds she performed to save Tamlin's people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a gre",
-      "totalWords": 186134,
-      "totalPages": 187,
-      "totalChapters": 75
-    },
-    {
-      "id": "a-court-of-wings-and-ruin",
-      "title": "A Court of Wings and Ruin",
-      "author": "Sarah J. Maas",
-      "description": "THE THIRD BOOK IN THE #1 BESTSELLING SERIES 'With bits of Buffy, Game Of Thrones and Outlander, this is a glorious series of total joy' STYLIST ____ __ Feyre has returned to the Spring Court, determined to gather information on Tamlin's manoeuvrings and the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit - and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who t",
-      "totalWords": 200004,
-      "totalPages": 201,
-      "totalChapters": 89
-    },
-    {
-      "id": "a-court-of-frost-and-starlight-a-court-of-thorns-and-roses",
-      "title": "A Court of Frost and Starlight (A Court of Thorns and Roses)",
-      "author": "Sarah J. Maas",
-      "description": "",
-      "totalWords": 64260,
-      "totalPages": 65,
-      "totalChapters": 13
+      "id": "twenty-love-poems-and-a-song-of-despair",
+      "title": "Twenty Love Poems and a Song of Despair",
+      "author": "Pablo Neruda",
+      "description": "Published in 1924, when Pablo Neruda was only twenty years old, this striking collection of love poems has proven to be the Nobel Laureate's most popular work. The sensual imagery and heartbreaking verse have inspired lovers and lovers of poetry for nearly a century. Translated by W. S. Merwin Introduction by Cristina García Contents I. Body of a Woman II. The Light Wraps You III. Ah Vastness of Pines IV. The Morning Is Full V. So that You Will Hear Me VI. I Remember You As You Were VII. Leaning",
+      "totalWords": 0,
+      "totalPages": 0,
+      "totalChapters": 0
     }
   ],
-  "updatedAt": "2026-04-10T17:28:30.429Z"
+  "updatedAt": "2026-04-17T02:03:20.454Z"
 }
