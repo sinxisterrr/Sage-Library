@@ -29,7 +29,7 @@ jobs:
           mobi_files=(books/*.mobi books/*.azw3)
           if [ ${#mobi_files[@]} -gt 0 ]; then
             echo "mobi/azw3 files found, installing calibre..."
-            sudo DEBIAN_FRONTEND=noninteractive apt-get install -y calibre
+            sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --fix-missing calibre
           else
             echo "No mobi/azw3 files — skipping calibre install"
           fi
