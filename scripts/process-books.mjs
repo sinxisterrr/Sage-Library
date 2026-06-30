@@ -160,7 +160,7 @@ async function processEpub(filePath) {
     try {
       const html = await epub.getChapterAsync(item.id);
       const text = htmlToText(html);
-      if (!text || text.split(/\s+/).filter(Boolean).length < 30) continue;
+      if (!text) continue;
       chapterTexts.push({ title: item.title || `Chapter ${chapterTexts.length + 1}`, text });
     } catch {
       // skip unreadable chapters
