@@ -140,13 +140,144 @@ async function writeBookData({ id, title, author, description, filename, chapter
 }
 
 //--------------------------------------------------------------
-// EPUB
+// EPUB — image detection + routing
 //--------------------------------------------------------------
 
-async function processEpub(filePath) {
-  const filename = path.basename(filePath);
-  const epub = await EPub.createAsync(filePath);
+// Pull the first img src out of a chapter's HTML
+function extractImgSrc(html) {
+  const m = html.match(/<img[^>]+src=["']([^"'#?]+)["']/i);
+  return m ? m[1] : null;
+}
 
+// Find the manifest item ID whose href resolves to the image referenced
+// by imgSrc (relative to the chapter at chapterHref).
+function findImageManifestId(epub, chapterHref, imgSrc) {
+  const chapterDir = chapterHref.includes('/')
+    ? chapterHref.slice(0, chapterHref.lastIndexOf('/') + 1)
+    : '';
+  const resolved = decodeURIComponent(
+    path.posix.normalize(chapterDir + imgSrc)
+  );
+  for (const [id, item] of Object.entries(epub.manifest)) {
+    const href = decodeURIComponent(item.href || '');
+    if (href === resolved || href.endsWith('/' + path.posix.basename(resolved))) {
+      return id;
+    }
+  }
+  return null;
+}
+
+// Sample up to 8 flow items; if most look like image pages (img tag + <80 words)
+// rather than text, treat the whole EPUB as image-based.
+async function detectIsImageEpub(epub) {
+  let imgPages = 0, textPages = 0;
+  for (const item of epub.flow.slice(0, 8)) {
+    if (!item.id) continue;
+    try {
+      const html = await epub.getChapterAsync(item.id);
+      const hasImg = /<img\s/i.test(html);
+      const wc = htmlToText(html).split(/\s+/).filter(Boolean).length;
+      if (hasImg && wc < 80) imgPages++;
+      else if (wc >= 10) textPages++;
+    } catch { /* skip */ }
+  }
+  return imgPages > textPages;
+}
+
+// Detect reading direction from EPUB spine metadata.
+// Falls back to 'rtl' (the most common manga default).
+function detectReadingDirection(epub) {
+  const raw = epub.spine?.['page-progression-direction']
+    || epub.metadata?.['page-progression-direction']
+    || epub.metadata?.direction
+    || '';
+  if (raw === 'ltr') return 'ltr';
+  if (raw === 'vertical' || raw === 'ttb') return 'vertical';
+  return 'rtl';
+}
+
+//--------------------------------------------------------------
+// IMAGE EPUB — extracts page images into data/<id>/images/
+//--------------------------------------------------------------
+
+async function processImageEpub(filePath, epub) {
+  const filename = path.basename(filePath);
+  const title = epub.metadata.title || parseFilename(filename).title;
+  const author = epub.metadata.creator || epub.metadata.author || parseFilename(filename).author;
+  const description = epub.metadata.description
+    ? htmlToText(epub.metadata.description).slice(0, 500) : '';
+  const id = slugify(title) || slugify(path.basename(filePath, '.epub'));
+
+  // Allow a .meta.json sidecar next to the EPUB to override direction
+  let readingDirection = detectReadingDirection(epub);
+  const sidecarPath = filePath.replace(/\.[^.]+$/, '.meta.json');
+  if (existsSync(sidecarPath)) {
+    try {
+      const sc = JSON.parse(await fs.readFile(sidecarPath, 'utf8'));
+      if (sc.readingDirection) readingDirection = sc.readingDirection;
+    } catch { /* ignore bad sidecar */ }
+  }
+
+  const bookDir = path.join(DATA_DIR, id);
+  const imagesDir = path.join(bookDir, 'images');
+  const pagesDir = path.join(bookDir, 'pages');
+  await fs.mkdir(imagesDir, { recursive: true });
+  await fs.mkdir(pagesDir, { recursive: true });
+
+  let pageNum = 0;
+  const pageEntries = [];
+
+  for (const item of epub.flow) {
+    if (!item.id) continue;
+    try {
+      const html = await epub.getChapterAsync(item.id);
+      const imgSrc = extractImgSrc(html);
+      if (!imgSrc) continue;
+
+      const chapterItem = epub.manifest[item.id];
+      if (!chapterItem?.href) continue;
+
+      const imgId = findImageManifestId(epub, chapterItem.href, imgSrc);
+      if (!imgId) continue;
+
+      const [buf, mime] = await epub.getImageAsync(imgId);
+      const ext = mime === 'image/png' ? '.png'
+                : mime === 'image/webp' ? '.webp'
+                : '.jpg';
+      const imgFilename = `page${String(++pageNum).padStart(3, '0')}${ext}`;
+      await fs.writeFile(path.join(imagesDir, imgFilename), buf);
+      pageEntries.push({ page: pageNum, image: `images/${imgFilename}` });
+    } catch { /* skip unreadable pages */ }
+  }
+
+  const totalPages = pageEntries.length;
+  for (const entry of pageEntries) {
+    await fs.writeFile(
+      path.join(pagesDir, `${entry.page}.json`),
+      JSON.stringify({ ...entry, totalPages }, null, 2)
+    );
+  }
+
+  const info = {
+    id, title, author, description, filename,
+    format: 'image',
+    readingDirection,
+    totalPages,
+    totalWords: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+  await fs.writeFile(path.join(bookDir, 'info.json'), JSON.stringify(info, null, 2));
+
+  return { id, title, author, description, totalWords: 0, totalPages, totalChapters: 0 };
+}
+
+//--------------------------------------------------------------
+// TEXT EPUB
+//--------------------------------------------------------------
+
+async function processTextEpub(filePath, epub) {
+  const filename = path.basename(filePath);
   const title = epub.metadata.title || parseFilename(filename).title;
   const author = epub.metadata.creator || epub.metadata.author || parseFilename(filename).author;
   const description = epub.metadata.description
@@ -162,12 +293,18 @@ async function processEpub(filePath) {
       const text = htmlToText(html);
       if (!text) continue;
       chapterTexts.push({ title: item.title || `Chapter ${chapterTexts.length + 1}`, text });
-    } catch {
-      // skip unreadable chapters
-    }
+    } catch { /* skip unreadable chapters */ }
   }
 
   return writeBookData({ id, title, author, description, filename, chapterTexts });
+}
+
+async function processEpub(filePath) {
+  const epub = await EPub.createAsync(filePath);
+  if (await detectIsImageEpub(epub)) {
+    return processImageEpub(filePath, epub);
+  }
+  return processTextEpub(filePath, epub);
 }
 
 //--------------------------------------------------------------
