@@ -4,65 +4,72 @@
   "author": "Pratchett, Terry",
   "description": "",
   "filename": "Mort -- Terry, Pratchett -- Discworld, 4, 2010 -- 20e705325ccb96115fc10140265e8fee -- Anna’s Archive.epub",
-  "totalWords": 73092,
+  "totalWords": 73096,
   "totalPages": 74,
-  "totalChapters": 8,
+  "totalChapters": 9,
   "chapters": [
     {
       "index": 1,
-      "title": "Part 1",
-      "wordCount": 9385,
-      "pageCount": 10,
+      "title": "Chapter 1",
+      "wordCount": 4,
+      "pageCount": 1,
       "startPage": 1
     },
     {
       "index": 2,
-      "title": "Part 2",
-      "wordCount": 9311,
+      "title": "Part 1",
+      "wordCount": 9385,
       "pageCount": 10,
-      "startPage": 11
+      "startPage": 2
     },
     {
       "index": 3,
-      "title": "Part 3",
-      "wordCount": 9338,
+      "title": "Part 2",
+      "wordCount": 9311,
       "pageCount": 10,
-      "startPage": 21
+      "startPage": 12
     },
     {
       "index": 4,
-      "title": "Part 4",
-      "wordCount": 9350,
+      "title": "Part 3",
+      "wordCount": 9338,
       "pageCount": 10,
-      "startPage": 31
+      "startPage": 22
     },
     {
       "index": 5,
-      "title": "Part 5",
-      "wordCount": 9318,
+      "title": "Part 4",
+      "wordCount": 9350,
       "pageCount": 10,
-      "startPage": 41
+      "startPage": 32
     },
     {
       "index": 6,
-      "title": "Part 6",
-      "wordCount": 9461,
+      "title": "Part 5",
+      "wordCount": 9318,
       "pageCount": 10,
-      "startPage": 51
+      "startPage": 42
     },
     {
       "index": 7,
-      "title": "Part 7",
-      "wordCount": 9236,
+      "title": "Part 6",
+      "wordCount": 9461,
       "pageCount": 10,
-      "startPage": 61
+      "startPage": 52
     },
     {
       "index": 8,
+      "title": "Part 7",
+      "wordCount": 9236,
+      "pageCount": 10,
+      "startPage": 62
+    },
+    {
+      "index": 9,
       "title": "Part 8",
       "wordCount": 7693,
       "pageCount": 8,
-      "startPage": 71
+      "startPage": 72
     }
   ]
 }

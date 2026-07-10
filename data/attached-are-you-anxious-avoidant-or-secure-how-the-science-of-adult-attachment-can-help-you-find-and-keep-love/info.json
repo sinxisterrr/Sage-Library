@@ -4,9 +4,9 @@
   "author": "Levine, Amir",
   "description": "",
   "filename": "Attached_ Are you Anxious, Avoidant or Secure_ How the -- Levine, Amir & Heller, Rachel -- 2011 -- Pan Macmillan -- 9a3e58103d7429bedd2eacb8201b8e83 -- Anna’s Archive.epub",
-  "totalWords": 67370,
+  "totalWords": 67417,
   "totalPages": 68,
-  "totalChapters": 24,
+  "totalChapters": 29,
   "chapters": [
     {
       "index": 1,
@@ -45,136 +45,171 @@
     },
     {
       "index": 6,
-      "title": "Chapter 6",
-      "wordCount": 4088,
-      "pageCount": 5,
+      "title": "INTRODUCTION: The New Science of Adult Attachment",
+      "wordCount": 8,
+      "pageCount": 1,
       "startPage": 6
     },
     {
       "index": 7,
       "title": "Chapter 7",
-      "wordCount": 4544,
+      "wordCount": 4088,
       "pageCount": 5,
-      "startPage": 11
+      "startPage": 7
     },
     {
       "index": 8,
       "title": "Chapter 8",
-      "wordCount": 1907,
-      "pageCount": 2,
-      "startPage": 16
+      "wordCount": 4544,
+      "pageCount": 5,
+      "startPage": 12
     },
     {
       "index": 9,
       "title": "Chapter 9",
-      "wordCount": 6199,
-      "pageCount": 7,
-      "startPage": 18
+      "wordCount": 10,
+      "pageCount": 1,
+      "startPage": 17
     },
     {
       "index": 10,
       "title": "Chapter 10",
-      "wordCount": 7766,
-      "pageCount": 8,
-      "startPage": 25
+      "wordCount": 1907,
+      "pageCount": 2,
+      "startPage": 18
     },
     {
       "index": 11,
       "title": "Chapter 11",
-      "wordCount": 5337,
-      "pageCount": 6,
-      "startPage": 33
+      "wordCount": 6199,
+      "pageCount": 7,
+      "startPage": 20
     },
     {
       "index": 12,
       "title": "Chapter 12",
-      "wordCount": 4686,
-      "pageCount": 5,
-      "startPage": 39
+      "wordCount": 11,
+      "pageCount": 1,
+      "startPage": 27
     },
     {
       "index": 13,
       "title": "Chapter 13",
-      "wordCount": 2096,
-      "pageCount": 3,
-      "startPage": 44
+      "wordCount": 7766,
+      "pageCount": 8,
+      "startPage": 28
     },
     {
       "index": 14,
       "title": "Chapter 14",
-      "wordCount": 4972,
-      "pageCount": 5,
-      "startPage": 47
+      "wordCount": 5337,
+      "pageCount": 6,
+      "startPage": 36
     },
     {
       "index": 15,
       "title": "Chapter 15",
-      "wordCount": 5403,
-      "pageCount": 6,
-      "startPage": 52
+      "wordCount": 4686,
+      "pageCount": 5,
+      "startPage": 42
     },
     {
       "index": 16,
       "title": "Chapter 16",
-      "wordCount": 5803,
-      "pageCount": 6,
-      "startPage": 58
+      "wordCount": 8,
+      "pageCount": 1,
+      "startPage": 47
     },
     {
       "index": 17,
       "title": "Chapter 17",
-      "wordCount": 5696,
-      "pageCount": 6,
-      "startPage": 64
+      "wordCount": 2096,
+      "pageCount": 3,
+      "startPage": 48
     },
     {
       "index": 18,
       "title": "Chapter 18",
-      "wordCount": 1424,
-      "pageCount": 2,
-      "startPage": 70
+      "wordCount": 4972,
+      "pageCount": 5,
+      "startPage": 51
     },
     {
       "index": 19,
       "title": "Chapter 19",
-      "wordCount": 1048,
-      "pageCount": 2,
-      "startPage": 72
+      "wordCount": 5403,
+      "pageCount": 6,
+      "startPage": 56
     },
     {
       "index": 20,
       "title": "Chapter 20",
-      "wordCount": 1064,
-      "pageCount": 2,
-      "startPage": 74
+      "wordCount": 10,
+      "pageCount": 1,
+      "startPage": 62
     },
     {
       "index": 21,
       "title": "Chapter 21",
-      "wordCount": 2864,
-      "pageCount": 3,
-      "startPage": 76
+      "wordCount": 5803,
+      "pageCount": 6,
+      "startPage": 63
     },
     {
       "index": 22,
       "title": "Chapter 22",
-      "wordCount": 319,
-      "pageCount": 1,
-      "startPage": 79
+      "wordCount": 5696,
+      "pageCount": 6,
+      "startPage": 69
     },
     {
       "index": 23,
       "title": "Chapter 23",
-      "wordCount": 677,
-      "pageCount": 1,
-      "startPage": 80
+      "wordCount": 1424,
+      "pageCount": 2,
+      "startPage": 75
     },
     {
       "index": 24,
       "title": "Chapter 24",
+      "wordCount": 1048,
+      "pageCount": 2,
+      "startPage": 77
+    },
+    {
+      "index": 25,
+      "title": "Chapter 25",
+      "wordCount": 1064,
+      "pageCount": 2,
+      "startPage": 79
+    },
+    {
+      "index": 26,
+      "title": "Chapter 26",
+      "wordCount": 2864,
+      "pageCount": 3,
+      "startPage": 81
+    },
+    {
+      "index": 27,
+      "title": "Chapter 27",
+      "wordCount": 319,
+      "pageCount": 1,
+      "startPage": 84
+    },
+    {
+      "index": 28,
+      "title": "Chapter 28",
+      "wordCount": 677,
+      "pageCount": 1,
+      "startPage": 85
+    },
+    {
+      "index": 29,
+      "title": "Chapter 29",
       "wordCount": 201,
       "pageCount": 1,
-      "startPage": 81
+      "startPage": 86
     }
   ]
 }

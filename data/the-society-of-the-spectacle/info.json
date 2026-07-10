@@ -4,93 +4,107 @@
   "author": "Guy Debord",
   "description": "'One should bear in mind when reading this book that it was written with the deliberate intention of doing harm to spectacular society' --Guy Debord. Originally published in France in 1968 The Society of the Spectacle is a brilliantly lucid analysis of the forms of social control and domination under modern capitalism. Since its publication it has had an enormous underground influence both on active revolutionaries and on radical cultural and political theory. Prescient in its condemnation of th",
   "filename": "The Society of the Spectacle -- Guy Debord -- 2002 -- Hobgoblin Press -- 3659e6686b3d0b4df4692405e662b223 -- Anna’s Archive.epub",
-  "totalWords": 31105,
+  "totalWords": 31138,
   "totalPages": 32,
-  "totalChapters": 12,
+  "totalChapters": 14,
   "chapters": [
     {
       "index": 1,
-      "title": "Contents",
-      "wordCount": 57,
+      "title": "Chapter 1",
+      "wordCount": 7,
       "pageCount": 1,
       "startPage": 1
     },
     {
       "index": 2,
-      "title": "Translator’s Note",
-      "wordCount": 272,
+      "title": "Title Page",
+      "wordCount": 26,
       "pageCount": 1,
       "startPage": 2
     },
     {
       "index": 3,
-      "title": "1: The Culmination of Separation",
-      "wordCount": 2837,
-      "pageCount": 3,
+      "title": "Contents",
+      "wordCount": 57,
+      "pageCount": 1,
       "startPage": 3
     },
     {
       "index": 4,
-      "title": "2: The Commodity as Spectacle",
-      "wordCount": 2124,
-      "pageCount": 3,
-      "startPage": 6
+      "title": "Translator’s Note",
+      "wordCount": 272,
+      "pageCount": 1,
+      "startPage": 4
     },
     {
       "index": 5,
-      "title": "3: Unity and Division Within Appearances",
-      "wordCount": 2638,
+      "title": "1: The Culmination of Separation",
+      "wordCount": 2837,
       "pageCount": 3,
-      "startPage": 9
+      "startPage": 5
     },
     {
       "index": 6,
-      "title": "4: The Proletariat as Subject and Representation",
-      "wordCount": 10358,
-      "pageCount": 11,
-      "startPage": 12
+      "title": "2: The Commodity as Spectacle",
+      "wordCount": 2124,
+      "pageCount": 3,
+      "startPage": 8
     },
     {
       "index": 7,
-      "title": "5: Time and History",
-      "wordCount": 3881,
-      "pageCount": 4,
-      "startPage": 23
+      "title": "3: Unity and Division Within Appearances",
+      "wordCount": 2638,
+      "pageCount": 3,
+      "startPage": 11
     },
     {
       "index": 8,
-      "title": "6: Spectacular Time",
-      "wordCount": 1611,
-      "pageCount": 2,
-      "startPage": 27
+      "title": "4: The Proletariat as Subject and Representation",
+      "wordCount": 10358,
+      "pageCount": 11,
+      "startPage": 14
     },
     {
       "index": 9,
-      "title": "7: Territorial Domination",
-      "wordCount": 1702,
+      "title": "5: Time and History",
+      "wordCount": 3881,
+      "pageCount": 4,
+      "startPage": 25
+    },
+    {
+      "index": 10,
+      "title": "6: Spectacular Time",
+      "wordCount": 1611,
       "pageCount": 2,
       "startPage": 29
     },
     {
-      "index": 10,
-      "title": "8: Negation and Consumption Within Culture",
-      "wordCount": 4130,
-      "pageCount": 5,
+      "index": 11,
+      "title": "7: Territorial Domination",
+      "wordCount": 1702,
+      "pageCount": 2,
       "startPage": 31
     },
     {
-      "index": 11,
+      "index": 12,
+      "title": "8: Negation and Consumption Within Culture",
+      "wordCount": 4130,
+      "pageCount": 5,
+      "startPage": 33
+    },
+    {
+      "index": 13,
       "title": "9: Ideology Materialized",
       "wordCount": 1130,
       "pageCount": 2,
-      "startPage": 36
+      "startPage": 38
     },
     {
-      "index": 12,
+      "index": 14,
       "title": "Index",
       "wordCount": 365,
       "pageCount": 1,
-      "startPage": 38
+      "startPage": 40
     }
   ]
 }
