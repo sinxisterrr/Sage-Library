@@ -1,4 +1,4 @@
-# sage-library
+# Sage Library 
 
 A self-hosted epub library for AI companions. Drop epubs in, push, done.
 
